@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
+
+<!-- HEADER -->
+
+header {
+    margin: 0;
+}
+.logo {
+    background: url("..images/js-logo4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    font-family: "work", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right: 20px;
+}
+
+.menu :hover {
+    color: rgb(1, 26, 188);
+}
+
+<!-- HERO-IMAGE -->
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: 
+
+}
+
+<!-- FOOTER -->
+
+footer {
+    height: 150px;
+    color: #000000;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding:12px 0;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: rgb(1, 26, 188);
+    transition: all 0.35s ease-in-out;
+    -moz- transition: all 0.35s ease-in-out;
+    -webkit- transition: all 0.35s ease-in-out;
+    -o- transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+    color: #fafafa;
+}
+
