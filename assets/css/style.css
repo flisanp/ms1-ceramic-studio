@@ -1,10 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
 
-<!-- HEADER -->
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'work sans', sans-serif;
+    color: #777777;
+}
+
+h1 {
+    font-family: 'work sans', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #777777;
+}
+
+
+
+
+
+/*------------ HEADER/NAVBAR ------------*/
 
 header {
     margin: 0;
+    height: 100px;
+    background-color: #fff;
+    
 }
+
 .logo {
     background: url("..images/js-logo4.png");
     background-position: center;
@@ -13,48 +40,74 @@ header {
 }
 
 .menu {
-    font-family: "work", sans-serif;
+    font-family: 'work sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-right: 20px;
+    
 }
 
-.menu :hover {
-    color: rgb(1, 26, 188);
+.menu a:hover {
+    color: red;
 }
 
-<!-- HERO-IMAGE -->
 
-#hero-image {
-    height: 600px;
+/*------------ HERO IMAGE ------------*/
+
+.big-image-container {
+    height: 100vh;
+    background: url(images/bg.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.button-text {
+    text-transform: uppercase;
+    font-family: 'work sans', sans-serif;
+    font-weight: 400;
+
+/*------------ IMAGES ------------*/
+
+}
+#hero-image{
+    height:600px;
     width: 100%;
-    background: 
+    
+}
+.info-image {
+    position: center;
+    width: 100%;
 
 }
 
-<!-- FOOTER -->
+
+
+/*------------ FOOTER ------------*/
 
 footer {
-    height: 150px;
-    color: #000000;
+    height: 80px;
+    background-color: #fff;
     margin: 0;
 }
 
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding:12px 0;
+    padding: 12px 0;
     font-size: 16px;
     line-height: 7px;
     text-align: center;
-    color: rgb(1, 26, 188);
+    color: #777777;
     transition: all 0.35s ease-in-out;
     -moz- transition: all 0.35s ease-in-out;
     -webkit- transition: all 0.35s ease-in-out;
@@ -62,7 +115,6 @@ footer {
 
 }
 
-.social-links li a i:hover {
-    color: #fafafa;
+.social-links i:hover {
+    color: rgb(1, 26, 188);
 }
-
