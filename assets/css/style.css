@@ -17,25 +17,26 @@ h1 {
     font-size: 70px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: -7.2px;
+    letter-spacing: -7px;
     line-height: 96px;
     text-transform: none;
-    color: rgb(1, 26, 188);
+    color: #E2725B;
 }
 
 h2 {
     font-family: 'work sans', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(1, 26, 188);
+    color: #777777;
 }
 
 
 h3 {
     font-family: 'work sans', sans-serif;
     font-weight: 200;
-    font-size: 26px;
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #777777;
@@ -46,7 +47,7 @@ h4 {
     font-weight: 100;
     font-size: 20px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #777777;
 }
 
@@ -113,14 +114,14 @@ header {
     font-family: 'work sans', sans-serif;
     font-weight: 500;
     color: #fff;
-    background: transparent;
-    border-color: rgb(1, 26, 188);
+    background:#E2725B;
+    border-color: #E2725B;
 }
 
 .button-text:hover {
     color: #fff;
-    background: rgb(1, 26, 188);
-    border-color: rgb(1, 26, 188);
+    background: transparent;
+    border-color: #E2725B;
 }
 
 /*------------ IMAGES ------------*/
@@ -144,11 +145,11 @@ header {
 
 .stockists-links {
     font-family: 'work sans', sans-serif;
-    font-weight: 100;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #777777;
+    color: black !important; 
     text-align: center;
 }
 
@@ -176,9 +177,13 @@ header {
     
     text-align: center;
     vertical-align: left;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 40px;
+}
 
+.contact-i{
+    font-size: 18px;
+    padding: 6px;
+    color: #E2725B;
 }
 
 /*------------ FOOTER ------------*/
@@ -209,5 +214,5 @@ footer {
 }
 
 .social-links i:hover {
-    color: rgb(1, 26, 188);
+    color: #E2725B;
 }
