@@ -67,11 +67,10 @@ header {
     margin: 0;
     height: 100px;
     background-color: #fff;
-   
 }
 
 .logo {
-    background: url("..images/js-logo4.png");
+    background: url("..images/js-logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,14 +80,18 @@ header {
     font-family: 'work sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #000000;
+    color: #777777;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-right: 20px;
 }
 
 .menu a:hover {
-    color: red;
+    color: #E2725B !important;
+}
+
+.active {
+    color: #E2725B !important;
 }
 
 
@@ -96,6 +99,7 @@ header {
 
 .hero-image {
     height: 100vh;
+    background: no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -109,12 +113,17 @@ header {
     top: 200px;
 }
 
+#cover-text {
+    color: #fff;
+}
+
+
 .button-text {
     text-transform: uppercase;
     font-family: 'work sans', sans-serif;
     font-weight: 500;
     color: #fff;
-    background:#E2725B;
+    background: #E2725B;
     border-color: #E2725B;
 }
 
@@ -124,12 +133,26 @@ header {
     border-color: #E2725B;
 }
 
+/*------------ COLLECTION------------*/
+
+.collection{
+height: 100vh;
+}
+.ceramic-selection{
+    padding-top: 60px;
+    width: 33%;
+    float: left;
+}
+
+
 /*------------ IMAGES ------------*/
 
 .info-image {
     position: center;
     width: 100%;
 }
+
+
 
 /*------------ STOCKISTS ------------*/
 
@@ -149,12 +172,17 @@ header {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black !important; 
     text-align: center;
 }
 
+.stockists-links a {
+    text-decoration: none;
+    color: #777777;
+
+}
+
 .stockists-links a:hover {
-    color: rgb(1, 26, 188);
+    color: #E2725B;
 }
 
 
@@ -174,13 +202,13 @@ header {
 /*------------ CONTACT ------------*/
 
 .contact-heading {
-    
+
     text-align: center;
     vertical-align: left;
     margin-top: 40px;
 }
 
-.contact-i{
+.contact-i {
     font-size: 18px;
     padding: 6px;
     color: #E2725B;
