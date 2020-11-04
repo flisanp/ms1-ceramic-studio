@@ -104,23 +104,35 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
+.jumbotron {
+    background-color: transparent;
+}
 
 #hero-text {
     width: 100%;
     position: absolute;
     text-align: center;
-    top: 200px;
+    top: 280px;
 }
 
 #cover-text {
     color: #fff;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 360px;
 }
 
-
 .button-text {
+
+    position: absolute;
+    text-align: center;
     text-transform: uppercase;
     font-family: 'work sans', sans-serif;
     font-weight: 500;
@@ -137,32 +149,33 @@ header {
 
 /*------------ COLLECTION------------*/
 
-#photo{
+#photo {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
+    margin-bottom: 100px; 
 }
 
-#photo img{
+#photo img {
     width: 100%;
     padding: 4px;
 }
 
-#collection-menu{
+#collection-menu {
     font-size: 110%;
     color: #777777;
     list-style-type: none;
     letter-spacing: 2px;
     line-height: 75px;
     margin-bottom: 30px;
-    text-align: center;     
+    text-align: center;
 }
 
 #collection-menu li {
     width: 100%;
     margin-right: 30px;
-    display: inline;    
+    display: inline;
 }
 
 #collection-menu a {
