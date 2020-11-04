@@ -137,8 +137,6 @@ header {
 
 /*------------ COLLECTION------------*/
 
-
-
 #photo{
     clear: both;
     line-height: 0;
@@ -182,7 +180,6 @@ header {
     position: center;
     width: 100%;
 }
-
 
 
 /*------------ STOCKISTS ------------*/
@@ -232,8 +229,7 @@ header {
 
 /*------------ CONTACT ------------*/
 
-.contact-heading {
-
+.contact-info {
     text-align: center;
     vertical-align: left;
     margin-top: 40px;
