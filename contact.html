@@ -61,19 +61,26 @@
             <div class="col-12 col-lg-6 ">
                 <div class="subheading"><h2>I would love to hear from you</h2>
                     <p>For stockist, collaboration or any other enquiries, please get in touch</p></div>
-                    <form>
+                    <form action="https://formdump.codeinstitute.net/" method="post">
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Name</label>
-                        <input type="name" class="form-control" id="exampleInputPassword1">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                    Are you a retailer or customer?
+                    <select name="user">
+                        <option value="retailer">Retailer</option>
+                        <option value="customer">Customer</option>
+                    </select>
                     </div>
                     <button type="submit" class="btn btn-primary button-text-form">Send</button>
                     </form>     
