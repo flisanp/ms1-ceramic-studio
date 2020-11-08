@@ -15,11 +15,8 @@ body {
 h1 {
     font-family: "Work Sans", sans-serif;
     font-size: 70px;
-    font-style: normal;
     font-weight: 300;
     letter-spacing: -7px;
-    line-height: 96px;
-    text-transform: none;
     color: #E2725B;
 }
 
@@ -147,6 +144,7 @@ header {
     border-color: #E2725B;
 }
 
+
 /*------------ COLLECTION------------*/
 
 #photo {
@@ -154,12 +152,12 @@ header {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
 }
 
 #photo img {
     width: 100%;
-    padding: 4px;
+    padding: 2px;
 }
 
 #collection-menu {
@@ -174,7 +172,7 @@ header {
 
 #collection-menu li {
     width: 100%;
-    margin-right: 30px;
+    margin-right: 20px;
     display: inline;
 }
 
@@ -192,6 +190,9 @@ header {
 .info-image {
     position: center;
     width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
 }
 
 
@@ -238,6 +239,30 @@ header {
     vertical-align: middle;
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.form-group {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-text-form {
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'work sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background: #E2725B;
+    border-color: #E2725B;
+    margin-left: 20px;
+
+}
+
+.button-text-form:hover {
+    color: #E2725B;
+    background: transparent;
+    border-color: #E2725B;
 }
 
 /*------------ CONTACT ------------*/

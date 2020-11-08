@@ -10,12 +10,10 @@
     <title>Ceramic Studio</title>
 </head>
 <body>
-
-<header>
+    <header>
     
 <!-- LOGO AND NAV BAR -->
 <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-light">
-
 
 <!-- LOGO -->
 <a class="navbar-brand" href="index.html">
@@ -40,7 +38,6 @@
           <a class="dropdown-item" href="kitchen.html">Kitchen</a>
         </div>
       </li>
-
       <li class="nav-item">
         <a class="nav-link" href="about.html">About</a>
       </li>
@@ -48,62 +45,67 @@
         <a class="nav-link" href="stockists.html">Stockists</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
 </header>
 
-<div>
-    <ul id="collection-menu">
-        <li>
-            <a href="collection.html">All</a>
-        </li>
-        <li>
-            <a href="bowls.html">Bowls</a>
-        </li>
-        <li>
-            <a href="vases.html">Vases</a>
-        </li>
-        <li>
-            <a href="cups.html">Cups</a>
-        </li>
-        <li>
-            <a class="active" href="kitchen.html">Kitchen</a>
-        </li>
-    </ul>
 
-</div>
+<!-- CONTACT -->
 
-<section id="photo">
+    <section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 ">
+                <div class="subheading"><h2>I would love to hear from you</h2>
+                    <p>For stockist, collaboration or any other enquiries, please get in touch</p></div>
 
 
-    <img src="assets/images/kitchen8.jpg" alt="">
-    
-    <img src="assets/images/kitchen2.jpg" alt="">
-
-    <img src="assets/images/kitchen3.jpg" alt="">
-    
-    <img src="assets/images/kitchen4.jpg" alt="">
-
-    <img src="assets/images/kitchen5.jpg" alt="">
-
-    <img src="assets/images/kitchen6.jpg" alt="">
-    
-    <img src="assets/images/kitchen7.jpg" alt="">
-
-    <img src="assets/images/kitchen1.jpg" alt="">
-   
-
-
-</section>
+<form>
+  
+  <div class="form-group">
+    <label for="exampleInputPassword1">Name</label>
+    <input type="name" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary button-text-form">Send</button>
+</form>
 
 
+                    <div class="contact-info">
+                        <h6><i class="fa fa-envelope contact-i"></i> jane-smith@gmail.com</h6>
+                        <h6><i class="fa fa-phone contact-i"></i> +213 628 996 111</h6>
+                        <h6><i class="fa fa-map-pin contact-i"></i>
+                        5723 Morgan Ave<br> 
+                         Los Angeles, CA </h6>
+                    </div>
+                    
+                    
+                </div>
 
+
+            <div class="col-12 col-lg-6 ">
+                <img class="info-image img-fluid" src="assets/images/woman5.jpg" alt="#">
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+<!-- FOOTER -->
 <footer class="footer fixed-bottom text-center">
-
 <!-- SOCIAL ICONS/LINKS -->
+<section>
     <ul class="list-inline social-links">
         <li class="list-inline-item">
             <a target="_blank" href="https://www.facebook.com">
@@ -131,6 +133,7 @@
         </li>
     </ul>
 
+</section>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
