@@ -1,27 +1,36 @@
 
 # Jane Smith Ceramic Studio
 
-### Milestone Project 1
-User-Centric Frontend Development - Code Institute
+### Milestone Project 1 
 
 
-**A live version of the page can be viewed here**
+**A live version of the page can be viewed here** (link)
 
-Jane Smith Ceramic Studio is a website about a fictional ceramist who wants to present her work for a potential new customer and/or client. The site presents her work in form of a gallery of four different categories. You can also find a page with information about the ceramist, a page with links to her stockists and a contact page with information how to get in contact with her.
+*mockup image here*
+
+Jane Smith Ceramic Studio is a website about a fictional ceramist who wants to present her work for a potential new customer or business client. It's important, both when it comes to B2C and B2B, for the user to see the range of products the ceramist offers so they can make a decision on buying. The site therefore presents a collection of her work in form of a gallery which contains four different categories. You can also find a page with information about the ceramist, a page with links to her stockists and a contact page where you can leave her a message.
+
+##### The goals for this website is to:
+- Give a good first impression to new customers.
+- Show products to customers who's looking for a unique piece for their home.
+- Show products to a retailer who wants to find good handcrafted products for their store.
+- Let users now that the ceramist is open to collaborations.
+- Make it easy for users to contact the ceramist.
 
 # UX
 
 
 #### User Stories
 - As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
+- As a stockist I would like to view her collection of products to see if it's something I would buy for my store.
 - As a fan of the ceramist I would like to find where the stockists are located so that I can purchase her products.
 - As a follower on social media I want to see the ceramist collection so that I can see if it’s something I want to buy.
 
 #### Strategy 
-I wanted to make a user-friendly website for the ceramist where she could present her collection for potential customers. I wanted the site to be easy navigated with a minimalistic design. It’s important both for a customer and a retailer to see what kinds of products the ceramist offers and they should immidiately see where to navigate to do this.
+I wanted to make a user-friendly website for the ceramist where she could present her collection for potential customers. I wanted the site to be easy navigated with a clean and minimalistic design. It’s important both for a customer and a retailer to see what kinds of products the ceramist offers and they should immidiately see where to navigate to do this.
 
 #### Surface
-The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone.  
+The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
 
 #### Wireframes
  - 
@@ -51,7 +60,7 @@ On top of the image is a call to action button that guides the user to view the 
 
 **Footer** - A fixed footer that exists on every page. Located in the center of the footer are four social media icons with links to the ceramist social media pages. The links have the same hover effects as the navbar and changes color when hovering over them.
 
-##### Features Left to Implement
+#### Features Left to Implement
 - A feature I would like to implement is a webshop so that customers easily can buy her work online.
 
 - I would also like to add a lightbox to the different images so that customers can get a better view of the items.
@@ -77,9 +86,11 @@ On top of the image is a call to action button that guides the user to view the 
 
 
 # Testing
+
+#### Testing User Stories 
 *
 
-#### During development
+#### During Development
 
  - Mobile responsiveness for about page not worked as intended.
 Image appears too small and does not move to underneath the text.
@@ -108,11 +119,12 @@ Image appears too small and does not move to underneath the text.
 
  - Collection link in navbar is not working
 
+ - Hero image has the wrong size
 	
- - Mobile responsiveness for hero image not worked as intended. Image size appears too small.
+ - Mobile responsiveness for hero image not working. 
 
 
- - Mobile responsiveness for hero text not worked as intended. Text size does not decrease and is overlapping.
+ - Mobile responsiveness for hero text not working. Text size does not decrease and is overlapping.
 
 
 # Deployment
@@ -120,7 +132,7 @@ Image appears too small and does not move to underneath the text.
 # Credits
 
 #### Content
-The content of the website is fictional but to seek information and inspiration about what others ceramist puts on their websites I have visited these talented ceramist and their sites:
+The content of the website is fictional but to seek information and inspiration about what other ceramist puts on their websites I have visited these talented ceramist and their sites:
 
 https://madokarindal.com
 

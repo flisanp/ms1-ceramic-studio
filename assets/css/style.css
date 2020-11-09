@@ -95,47 +95,51 @@ header {
 /*------------ HERO IMAGE ------------*/
 
 .hero-image {
-    height: 100vh;
+    height: 600px;
     background: no-repeat center center;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.jumbotron {
-    background-color: transparent;
+
 }
 
 #hero-text {
     width: 100%;
     position: absolute;
-    text-align: center;
-    top: 280px;
+    text-align: left;
+    top: 230px;
+    margin-left: 20px;
+
 }
 
 #cover-text {
     color: #fff;
     width: 100%;
     position: absolute;
-    text-align: center;
-    top: 360px;
+    text-align: left;
+    top: 310px;
+    margin-left: 20px;
+}
+
+#button-pos {
+    position: absolute;
+    top: 400px;
+    margin-left: 60px;
 }
 
 .button-text {
-
-    position: absolute;
-    text-align: center;
     text-transform: uppercase;
     font-family: 'work sans', sans-serif;
     font-weight: 500;
     color: #fff;
     background: #E2725B;
     border-color: #E2725B;
+
 }
 
 .button-text:hover {
@@ -265,6 +269,7 @@ header {
     border-color: #E2725B;
 }
 
+
 /*------------ CONTACT ------------*/
 
 .contact-info {
@@ -276,6 +281,10 @@ header {
 .contact-i {
     font-size: 18px;
     padding: 6px;
+    color: #E2725B;
+}
+
+.heart {
     color: #E2725B;
 }
 
