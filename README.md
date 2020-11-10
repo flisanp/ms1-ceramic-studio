@@ -45,29 +45,30 @@ In this section, you should go over the different parts of your project, and des
 
 **Header** - A fixed header that exists on every page. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.
 
-**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed when viewing on smaller screens. The navbar has an extra JavaScript function with a dropdown menu so the user easily can view the different categories in the collection.
+**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed when viewing on smaller screens. 
 
 The navbar has an hover effect so when the user hovers over the different pages the text changes color to a warm terracotta orange. The same color is used to show wich page the user is currently on.
 
 **Home** - The home page features a hero image that shows some of the items in the collection. This will give the user an idea of what type of items the ceramist offers. 
 
-On top of the image is a call to action button that guides the user to view the collection.
+On top of the image is a call to action button that guides the user to her shop.
 
-**Collection** - The collection page features a menu of the different categories followed by a masonry gallery with images of all the products. You can easily click on each category to get a better view of the category you’re intrested in.
+**Collection** - The collection page features a masonry gallery with images of all her work. 
 
 **About** - The about page features a photo of the ceramist to give a personal feeling to who’s making the items. The page also provides a short text that gives some information about who she is and her thoughts about her work. You can also read that she’s available for collaborations.
 
 **Stockists** - The stockist page features an unordered list with links to all her stockists so that users easily can access their websites and get information on where to purchase her items.
 
-**Contact** - The contact page features a form where the user can fill in their name, email address and a message.
+**Contact** - The contact page features a form where the user can fill in their name, email address and a message. The page also features another photo of the ceramist to make it personal.
 
 **Footer** - A fixed footer that exists on every page. Located in the center of the footer are four social media icons with links to the ceramist social media pages. The links have the same hover effects as the navbar and changes color when hovering over them.
 
 #### Features Left to Implement
-- A feature I would like to implement is a webshop so that customers easily can buy her work online.
+- A webshop directly on her page so that customers easily can buy her work without beeing redirect to Etsy.com.
 
-- I would also like to add a lightbox to the different images so that customers can get a better view of the items.
+- A lightbox feature to the image galley so that customers can get a better view of the items.
 
+- The forms functionality.
 
 # Technologies Used
 
