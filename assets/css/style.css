@@ -170,6 +170,7 @@ header {
     width: 100%;
     padding-right: 20px;
     padding-left: 20px;
+    padding-top: 20px;
     margin-bottom: 100px;
 }
 
@@ -182,9 +183,8 @@ header {
     margin-bottom: 20px;
     list-style-type: none;
     text-align: center;
+    padding-right: 30px;
 }
-
-/*------------ LINKS ------------*/
 
 .stockists-links {
     font-family: 'work sans', sans-serif;
@@ -192,6 +192,7 @@ header {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    position: center;
     text-align: center;
 }
 
@@ -217,30 +218,7 @@ header {
     vertical-align: middle;
     margin-top: 20px;
     margin-left: 20px;
-}
-
-.form-group {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.button-text-form {
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'work sans', sans-serif;
-    font-weight: 500;
-    color: #fff;
-    background: #E2725B;
-    border-color: #E2725B;
-    margin-left: 20px;
-
-}
-
-.button-text-form:hover {
-    color: #E2725B;
-    background: transparent;
-    border-color: #E2725B;
+    padding-right: 20px;
 }
 
 
@@ -261,6 +239,30 @@ header {
 .heart {
     color: #E2725B;
 }
+
+.form-group {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-text-form {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'work sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background: #E2725B;
+    border-color: #E2725B;
+    margin-left: 20px;
+
+}
+
+.button-text-form:hover {
+    color: #E2725B;
+    background: transparent;
+    border-color: #E2725B;
+}
+
 
 /*------------ FOOTER ------------*/
 
@@ -310,12 +312,7 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
-    margin-bottom: 100px;
+
 }
 
 } 
