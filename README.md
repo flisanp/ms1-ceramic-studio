@@ -8,12 +8,14 @@
 
 *mockup image here*
 
-Jane Smith Ceramic Studio is a website about a fictional ceramist who wants to present her work for a potential new customer or business client. It's important, both when it comes to B2C and B2B, for the user to see the range of products the ceramist offers so they can make a decision on buying. The site therefore presents a collection of her work in form of a gallery which contains four different categories. You can also find a page with information about the ceramist, a page with links to her stockists and a contact page where you can leave her a message.
+Jane Smith Ceramic Studio is a website about a fictional ceramist who wants to present her work for a potential new customer or business client. It's important, both when it comes to B2C and B2B, for the user to see the range of products the ceramist offers so they can make a decision on buying. The site therefore presents a collection of her work in form of a gallery. You can also find a page with information about the ceramist, a page with links to her stockists and a contact page where you can leave her a message.
 
 ##### The goals for this website is to:
 - Give a good first impression to new customers.
-- Show products to customers who's looking for a unique piece for their home.
-- Show products to a retailer who wants to find good handcrafted products for their store.
+- Sell products to customers.
+- Show customers where to buy the products.
+- Show items to customers who's looking for a unique piece for their home.
+- Show items to a retailer who wants to find good handcrafted products for their store.
 - Let users now that the ceramist is open to collaborations.
 - Make it easy for users to contact the ceramist.
 
@@ -22,12 +24,13 @@ Jane Smith Ceramic Studio is a website about a fictional ceramist who wants to p
 
 #### User Stories
 - As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
+- As a potential customer I want to visit her shop to find out what products I can buy.
 - As a stockist I would like to view her collection of products to see if it's something I would buy for my store.
-- As a fan of the ceramist I would like to find where the stockists are located so that I can purchase her products.
+- As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products.
 - As a follower on social media I want to see the ceramist collection so that I can see if it’s something I want to buy.
 
 #### Strategy 
-I wanted to make a user-friendly website for the ceramist where she could present her collection for potential customers. I wanted the site to be easy navigated with a clean and minimalistic design. It’s important both for a customer and a retailer to see what kinds of products the ceramist offers and they should immidiately see where to navigate to do this.
+I wanted to make a user-friendly website for the ceramist where she can offer her products for potential customers. I wanted the site to be easy navigated with a clean and minimalistic design. It’s important both for a customer and a retailer to see what kinds of products the ceramist offers and they should immidiately see where to navigate to do this, the first thing you see is therefore a call to action button that leads straight to her shop on Etsy.
 
 #### Surface
 The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
@@ -114,7 +117,7 @@ Image appears too small and does not move to underneath the text.
 	- Added `!important;`  to `.active`
 
  - Send Button in the form on the contact page was hidden behind the image on small devices.
-  - Removed `position:absolute` from `.button-text-form`
+   - Removed `position:absolute` from `.button-text-form`
 
 
  - Collection menu on collection page not responsive on mobile devices.
