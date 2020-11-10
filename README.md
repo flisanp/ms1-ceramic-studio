@@ -94,24 +94,27 @@ On top of the image is a call to action button that guides the user to view the 
 
  - Mobile responsiveness for about page not worked as intended.
 Image appears too small and does not move to underneath the text.
-	- changed setting from col-6 to col-12 col-lg-6 
+	- changed setting from `col-6` to `col-12 col-lg-6` 
 
  - Mobile responsiveness for stockists page not worked as intended.
 Image appears too small and does not move to underneath the text.
-	- changed setting from col-6 to col-12 col-lg-6 
+	- changed setting from `col-6` to `col-12 col-lg-6` 
 
  - Mobile responsiveness for contact page not worked as intended.
 Image appears too small and does not move to underneath the text.
-	- changed setting from col-6 to col-12 col-lg-6 
+	- changed setting from `col-6` to `col-12 col-lg-6` 
 
  - Header remained transparent when scrolling which made the menu difficult to read.
-	- Added bg-white to navbar class.
+	- Added `bg-white` to `navbar` class.
 
  - Unable to customize color on navbar menu when hovering.
-	- Added !important;  to .menu a
+	- Added `!important;`  to `.menu a`
 
  - Unable to customize color on active pages.
-	- Added !important;  to .active
+	- Added `!important;`  to `.active`
+
+ - Send Button in the form on the contact page was hidden behind the image on small devices.
+  - Removed `position:absolute` from `.button-text-form`
 
 
  - Collection menu on collection page not responsive on mobile devices.
