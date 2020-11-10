@@ -6,8 +6,6 @@ body {
     color: #777777;
 }
 
-
-
 h1 {
     font-family: "Work Sans", sans-serif;
     font-size: 70px;
@@ -92,10 +90,11 @@ header {
 
 #hero-image{
     height: 600px;
-    background: url("/assets/images/cups_collection.jpg") no-repeat center center;
+    background: url("/assets/images/cups-hero-image2.jpg") no-repeat center center;  
     
 }
 
+/*------------ HERO TEXT ------------*/
 #hero-text {
     font-family: "Work Sans", sans-serif;
     font-size: 60px;
@@ -105,24 +104,24 @@ header {
 
     width: 100%;
     position: absolute;
-    text-align: left;
-    top: 100px;
-    margin-left: 80px;
+    text-align: center;
+    top: 70px;
+    
 }
 
 #cover-text {
-    color: #E2725B;
+    color: #fff;
     width: 100%;
     position: absolute;
-    text-align: left;
-    top: 200px;
-    margin-left: 80px;
+    text-align: center;
+    top: 150px;
+    
 }
+/*------------ HERO BUTTON ------------*/
+
 
 #button-pos {
-    position: absolute;
-    top: 400px;
-    margin-left: 60px;
+    
 }
 
 .button-text {
@@ -210,6 +209,7 @@ header {
 .subheading {
     text-align: center;
    padding-top:10px;
+   text-shadow: 4px;
 }
 
 .about-text {
@@ -253,7 +253,6 @@ header {
     background: #E2725B;
     border-color: #E2725B;
     margin-left: 20px;
-
 }
 
 .button-text-form:hover {
