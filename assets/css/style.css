@@ -96,38 +96,9 @@ header {
 
 /*------------ HERO TEXT ------------*/
 
-#text-box{
-    position: absolute;
-	text-align: center;
-	top: 35%;
-	width: 100%;
-}
 
-#hero-text {
-    font-family: "Work Sans", sans-serif;
-    font-size: 60px;
-    font-weight: 300;
-    letter-spacing: -7px;
-    color: #E2725B;
-
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    top: 60px;  
-}
-
-#cover-text {
-    color: #fff;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    top: 150px;
-    
-}
 /*------------ HERO BUTTON ------------*/
 
-
-}
 
 .button-text {
     text-transform: uppercase;
@@ -299,24 +270,6 @@ footer {
 
 /*------------ MEDIA QUERIES ------------*/
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    #photo {
-        clear: both;
-        line-height: 0;
-        column-count: 3;
-        column-gap: 0;
-        margin-bottom: 100px;
-    }
-
-}
-
-
-
-
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
@@ -325,6 +278,7 @@ footer {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+ 
 
 }
 
@@ -345,11 +299,5 @@ footer {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
- #photo {
-        clear: both;
-        line-height: 0;
-        column-count: 4;
-        column-gap: 0;
-        margin-bottom: 100px;
-    }
+
 }
