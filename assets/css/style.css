@@ -20,7 +20,7 @@ h2 {
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#777777;
+    color: #777777;
 }
 
 
@@ -88,27 +88,25 @@ header {
 
 /*------------ HERO IMAGE ------------*/
 
-.hero-container{
-    height:100vh;
-    background: url("/assets/images/hero-image3.jpg") no-repeat bottom right fixed;  
-    background-size: cover; 
-    
+.hero-container {
+    height: 100vh;
+    background: url("/assets/images/hero-image3.jpg") no-repeat bottom right fixed;
+    background-size: cover;
+
     padding-bottom: 30%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .jumbotron {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 /*------------ HERO TEXT ------------*/
 
-.hero-header {
-    
-}
+.hero-header {}
 
 .hero-sub-header {
     color: #fff;
@@ -191,7 +189,6 @@ header {
 .stockists-links a {
     text-decoration: none;
     color: #777777;
-
 }
 
 .stockists-links a:hover {
@@ -203,8 +200,8 @@ header {
 
 .subheading {
     text-align: center;
-   padding-top:10px;
-   text-shadow: 4px;
+    padding-top: 10px;
+    text-shadow: 4px;
 }
 
 .about-text {
@@ -215,126 +212,129 @@ header {
     padding-right: 20px;
 }
 
-
-/*------------ CONTACT ------------*/
-
-.contact-info {
-    text-align: center;
-    vertical-align: left;
-    margin-top: 40px;
-}
-
-.contact-i {
+.about-text a {
+    font-weight: 400;
     font-size: 18px;
-    padding: 6px;
+    text-decoration: none;
     color: #E2725B;
 }
-
-.heart {
-    color: #E2725B;
-}
-
-.form-group {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.button-text-form {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'work sans', sans-serif;
-    font-weight: 500;
-    color: #fff;
-    background: #E2725B;
-    border-color: #E2725B;
-    margin-left: 20px;
-}
-
-.button-text-form:hover {
-    color: #E2725B;
-    background: transparent;
-    border-color: #E2725B;
-}
-
-
-/*------------ FOOTER ------------*/
-
-footer {
-    height: 80px;
-    background-color: #fff;
-    margin: 0;
-}
-
-.social-links {
-    padding-bottom: 10px;
-    padding-top: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    font-size: 20px;
-    line-height: 7px;
-    text-align: center;
-    color: #777777;
-    transition: all 0.35s ease-in-out;
-    -moz- transition: all 0.35s ease-in-out;
-    -webkit- transition: all 0.35s ease-in-out;
-    -o- transition: all 0.35s ease-in-out;
-}
-
-.social-links i:hover {
-    color: #E2725B;
-}
-
-/*------------ MEDIA QUERIES ------------*/
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    h1{
-        
-
-    }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-  .hero-container{
-        position: fixed;
-        padding-bottom: 70%;
-        
-    }
-
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-    #photo {
-        clear: both;
-        line-height: 0;
-        column-count: 3;
-        column-gap: 0;
-        margin-bottom: 100px;
-    }
-
-    h1 {
-    font-size: 60px;
-    }
     
-    .hero-container{
-        padding-bottom: 30%;
-        padding-right: 40%;
+.about-text a:hover {
+    color: #777777;
+}
+    /*------------ CONTACT ------------*/
+
+    .contact-info {
+        text-align: center;
+        vertical-align: left;
+        margin-top: 40px;
     }
 
-}
+    .contact-i {
+        font-size: 18px;
+        padding: 6px;
+        color: #E2725B;
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+    .heart {
+        color: #E2725B;
+    }
+
+    .form-group {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .button-text-form {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'work sans', sans-serif;
+        font-weight: 500;
+        color: #fff;
+        background: #E2725B;
+        border-color: #E2725B;
+        margin-left: 20px;
+    }
+
+    .button-text-form:hover {
+        color: #E2725B;
+        background: transparent;
+        border-color: #E2725B;
+    }
 
 
-}
+    /*------------ FOOTER ------------*/
+
+    footer {
+        height: 80px;
+        background-color: #fff;
+        margin: 0;
+    }
+
+    .social-links {
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .social-links li a i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        font-size: 20px;
+        line-height: 7px;
+        text-align: center;
+        color: #777777;
+        transition: all 0.35s ease-in-out;
+        -moz- transition: all 0.35s ease-in-out;
+        -webkit- transition: all 0.35s ease-in-out;
+        -o- transition: all 0.35s ease-in-out;
+    }
+
+    .social-links i:hover {
+        color: #E2725B;
+    }
+
+    /*------------ MEDIA QUERIES ------------*/
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        h1 {}
+
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+
+        .hero-container {
+            position: fixed;
+            padding-bottom: 70%;
+
+        }
+
+    }
+
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+
+        #photo {
+            clear: both;
+            line-height: 0;
+            column-count: 3;
+            column-gap: 0;
+            margin-bottom: 100px;
+        }
+
+        h1 {
+            font-size: 60px;
+        }
+
+        .hero-container {
+            padding-bottom: 30%;
+            padding-right: 40%;
+        }
+
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {}
