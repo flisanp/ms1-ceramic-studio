@@ -37,7 +37,11 @@ I wanted to make a user-friendly website for the ceramist where she can offer he
 The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
 
 #### Wireframes
- - 
+- [Home](workspace/ms1-ceramic-studio/wireframes/Home.png) 
+- [Collection](workspace/ms1-ceramic-studio/wireframes/Collection.png) 
+- [About](workspace/ms1-ceramic-studio/wireframes/About.png) 
+- [Stockists](workspace/ms1-ceramic-studio/wireframes/Stockists.png) 
+- [Contact](workspace/ms1-ceramic-studio/wireframes/Contact.png) 
 
 
 # Features
@@ -149,6 +153,11 @@ Image appears too small and does not move to underneath the text.
 
  - Mobile responsiveness for hero text not working. Text size does not decrease and is overlapping.
 
+#### HTML Testing
+https://validator.w3.org/
+
+#### CSS Testing 
+https://jigsaw.w3.org/css-validator/
 
 # Deployment
 
