@@ -90,7 +90,7 @@ header {
 
 .hero-container{
     height:100vh;
-    background: url("/assets/images/cups-hero-image2.jpg") no-repeat bottom right fixed;  
+    background: url("/assets/images/hero-image3.jpg") no-repeat bottom right fixed;  
     background-size: cover; 
     
     padding-bottom: 30%;
@@ -300,7 +300,8 @@ footer {
 
   .hero-container{
         position: fixed;
-        padding-bottom: 50%;
+        padding-bottom: 70%;
+        
     }
 
 }
@@ -322,9 +323,8 @@ footer {
     }
     
     .hero-container{
-        position: fixed;
         padding-bottom: 30%;
-        
+        padding-right: 40%;
     }
 
 }
