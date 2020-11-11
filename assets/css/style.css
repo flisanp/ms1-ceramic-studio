@@ -87,12 +87,13 @@ header {
 
 
 /*------------ HERO IMAGE ------------*/
-/* original code credit: love running */
-#hero-image{
-    height: 600px;
-    background: url("/assets/images/cups-hero-image2.jpg") no-repeat center center;  
-    position: relative;  
+
+.hero-container{
+    height:100vh;
+    background: url("/assets/images/cups-hero-image2.jpg") no-repeat center center fixed;   
 }
+
+
 
 /*------------ HERO TEXT ------------*/
 
