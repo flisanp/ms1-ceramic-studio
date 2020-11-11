@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family: "Work Sans", sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 300;
     letter-spacing: -7px;
     color: #E2725B;
@@ -20,7 +20,7 @@ h2 {
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fff;
+    color:#777777;
 }
 
 
@@ -94,7 +94,7 @@ header {
     background-size: cover; 
     
     padding-bottom: 30%;
-    position:fixed;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +113,7 @@ header {
 /*------------ HERO BUTTON ------------*/
 
 .btn {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .button-text {
@@ -288,13 +288,20 @@ footer {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    h1{
+        
+
+    }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
- 
+  .hero-container{
+        position: fixed;
+        padding-bottom: 50%;
+    }
 
 }
 
@@ -308,6 +315,16 @@ footer {
         column-count: 3;
         column-gap: 0;
         margin-bottom: 100px;
+    }
+
+    h1 {
+    font-size: 60px;
+    }
+    
+    .hero-container{
+        position: fixed;
+        padding-bottom: 30%;
+        
     }
 
 }
