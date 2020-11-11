@@ -93,6 +93,8 @@ header {
     background: url("/assets/images/cups-hero-image2.jpg") no-repeat bottom right fixed;  
     background-size: cover; 
     
+    padding-bottom: 30%;
+    position:fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,7 +113,7 @@ header {
 /*------------ HERO BUTTON ------------*/
 
 .btn {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .button-text {
