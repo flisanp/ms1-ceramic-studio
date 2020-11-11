@@ -124,7 +124,7 @@ header {
     font-weight: 500;
     color: #fff;
     background: #E2725B;
-    border-color: #E2725B;
+    border-color: transparent;
 }
 
 .button-text:hover {
@@ -152,7 +152,6 @@ header {
 /*------------ IMAGES ------------*/
 
 .info-image {
-    position: center;
     width: 100%;
     padding-right: 20px;
     padding-left: 20px;
@@ -168,7 +167,6 @@ header {
 /*------------ STOCKISTS ------------*/
 
 .stockists-list {
-    position: center;
     margin-top: 20px;
     margin-bottom: 20px;
     list-style-type: none;
@@ -182,7 +180,6 @@ header {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    position: center;
     text-align: center;
 }
 
@@ -201,7 +198,6 @@ header {
 .subheading {
     text-align: center;
     padding-top: 10px;
-    text-shadow: 4px;
 }
 
 .about-text {
@@ -224,22 +220,6 @@ header {
 }
     /*------------ CONTACT ------------*/
 
-    .contact-info {
-        text-align: center;
-        vertical-align: left;
-        margin-top: 40px;
-    }
-
-    .contact-i {
-        font-size: 18px;
-        padding: 6px;
-        color: #E2725B;
-    }
-
-    .heart {
-        color: #E2725B;
-    }
-
     .form-group {
         margin-left: 20px;
         margin-right: 20px;
@@ -252,7 +232,7 @@ header {
         font-weight: 500;
         color: #fff;
         background: #E2725B;
-        border-color: #E2725B;
+        border-color: transparent;
         margin-left: 20px;
     }
 
@@ -285,9 +265,6 @@ header {
         text-align: center;
         color: #777777;
         transition: all 0.35s ease-in-out;
-        -moz- transition: all 0.35s ease-in-out;
-        -webkit- transition: all 0.35s ease-in-out;
-        -o- transition: all 0.35s ease-in-out;
     }
 
     .social-links i:hover {
