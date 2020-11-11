@@ -136,7 +136,7 @@ header {
 }
 
 
-/*------------ COLLECTION------------*/
+/*------------ GALLERY ------------*/
 
 #photo {
     clear: both;
@@ -180,7 +180,7 @@ header {
 
 .stockists-links {
     font-family: 'work sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
