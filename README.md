@@ -120,11 +120,6 @@ Image appears too small and does not move to underneath the text.
    - Removed `position:absolute` from `.button-text-form`
 
 
- - Collection menu on collection page not responsive on mobile devices.
-	 
-
- - Collection link in navbar is not working
-
  - Hero image has the wrong size
 	
  - Mobile responsiveness for hero image not working. 
@@ -152,13 +147,19 @@ https://www.epocaceramic.com
 
 
 #### Media
-Unsplash - used for ceramic images
 
-Shutterstock - used for hero image and about image
+- Hero Image on Home page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
+- All photos on Collection page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
+- Photo on Stockist page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
+- Photo on Contact page by [Gustavo Fring on Pexels](https://www.pexels.com/sv-se/foto/ljus-kvinna-konst-kreativ-4241339/)
+- Photo on About page by [Gustavo Fring on Pexels](https://www.pexels.com/sv-se/@gustavo-fring)
 
 #### Acknowledgements
-Stack Overflow was used for solving small issues  
+[Stack Overflow](https://stackoverflow.com/) was used for solving small issues  
 
+[w3schools](https://www.w3schools.com)
+
+Mentor Sinead O'Brien 
 
 
 
