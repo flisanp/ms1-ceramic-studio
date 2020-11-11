@@ -20,7 +20,7 @@ h2 {
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #777777;
+    color: #fff;
 }
 
 
@@ -92,7 +92,7 @@ header {
     height:100vh;
     background: url("/assets/images/cups-hero-image2.jpg") no-repeat bottom right fixed;  
     background-size: cover; 
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,6 +110,9 @@ header {
 
 /*------------ HERO BUTTON ------------*/
 
+.btn {
+    margin-top: 20px;
+}
 
 .button-text {
     text-transform: uppercase;
