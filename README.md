@@ -28,6 +28,7 @@ Jane Smith Ceramic Studio is a website about a fictional ceramist who wants to p
 - As a stockist I would like to view her collection of products to see if it's something I would buy for my store.
 - As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products.
 - As a follower on social media I want to see the ceramist collection so that I can see if it’s something I want to buy.
+- As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work.
 
 #### Strategy 
 I wanted to make a user-friendly website for the ceramist where she can offer her products for potential customers. I wanted the site to be easy navigated with a clean and minimalistic design. It’s important both for a customer and a retailer to see what kinds of products the ceramist offers and they should immidiately see where to navigate to do this, the first thing you see is therefore a call to action button that leads straight to her shop on Etsy.
@@ -90,8 +91,29 @@ On top of the image is a call to action button that guides the user to her shop.
 
 # Testing
 
+#### Manually Testing
+- Logo image in header navigates back to Home page on every site.
+- Links in navbar takes you to the correct pages.
+- Hover effect on links in navbar.
+- Action effect on actual site your visiting.
+- Links to stockists works and opens in a new tab window
+- Form 
+- Responsiveness
+- Links social media
+
 #### Testing User Stories 
-*
+- As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
+    - The navbar with the link to the CONTACT page is located on the top right which makes it easy to navigate as soon as you visit the website.
+- As a potential customer I want to visit her shop to find out what products I can buy.
+    - The first thing you see when you visit the website is a call to action button that says "SHOP NOW" which leads you immidiately to her Etsy shop. The button is in a terracotta color so it clearly stands out from the background.
+- As a stockist I would like to view her collection of products to see if it's something I would buy for my store.
+    - The first thing you see when you visit the website is a call to action button that says "SHOP NOW" which leads you immidiately to her Etsy shop. You can also navigate to the navbar in the top right corner where you can find the COLLECTION page with a image gallery on all the items available.
+- As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products.
+    - The navbar with the link to the STOCKIST page is located on the top right which makes it easy to navigate as soon as you visit the website.
+- As a follower on social media I want to see the ceramist collection so that I can see if it’s something I want to buy.
+    - In the top right corner is the navbar where you can find the COLLECTION page with a image gallery on all the items available.
+- As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work.
+    - In the footer on all pages are links to her four social media sites which makes them clearly visible at all time.
 
 #### During Development
 
