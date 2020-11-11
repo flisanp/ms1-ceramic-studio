@@ -1,8 +1,6 @@
 
 # Jane Smith Ceramic Studio
 
-### Milestone Project 1 
-
 
 **A live version of the page can be viewed here** (link)
 
