@@ -92,12 +92,21 @@ header {
     height:100vh;
     background: url("/assets/images/cups-hero-image2.jpg") no-repeat bottom right fixed;  
     background-size: cover; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
+.jumbotron {
+    background-color:transparent;
+}
 
 /*------------ HERO TEXT ------------*/
 
+.hero-header {
+    
+}
 
 /*------------ HERO BUTTON ------------*/
 
