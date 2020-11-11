@@ -37,11 +37,11 @@ I wanted to make a user-friendly website for the ceramist where she can offer he
 The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
 
 #### Wireframes
-- [Home](workspace/ms1-ceramic-studio/wireframes/Home.png) 
-- [Collection](workspace/ms1-ceramic-studio/wireframes/Collection.png) 
-- [About](workspace/ms1-ceramic-studio/wireframes/About.png) 
-- [Stockists](workspace/ms1-ceramic-studio/wireframes/Stockists.png) 
-- [Contact](workspace/ms1-ceramic-studio/wireframes/Contact.png) 
+- [Home](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Home.png) 
+- [Collection](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Collection.png) 
+- [About](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/About.png) 
+- [Stockists](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Stockists.png) 
+- [Contact](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Contact.png) 
 
 
 # Features
