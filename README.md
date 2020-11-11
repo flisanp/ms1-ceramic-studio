@@ -6,7 +6,7 @@
 
 **A live version of the page can be viewed here** (link)
 
-*mockup image here*
+![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/master/assets/wireframes/mockup-image.png)
 
 Jane Smith Ceramic Studio is a website about a fictional ceramist who wants to present her work for a potential new customer or business client. It's important, both when it comes to B2C and B2B, for the user to see the range of products the ceramist offers so they can make a decision on buying. The site therefore presents a collection of her work in form of a gallery. You can also find a page with information about the ceramist, a page with links to her stockists and a contact page where you can leave her a message.
 
