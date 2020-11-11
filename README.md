@@ -72,21 +72,20 @@ On top of the image is a call to action button that guides the user to her shop.
 
 # Technologies Used
 
-##### Languages
-- HTML5 
-- CSS3
 
-*Github* - 
+- HTML5 and CSS3
 
-*Gitpod* -
+- [Bootstrap](https://getbootstrap.com) - The project uses Bootstrap to make the site responsive and to implement features such as the navbar and the buttons.
 
-*Bootstrap* - The project uses Bootstrap to make the site responsive and to implement features such as the navbar and the buttons.
+- [FontAwesome](https://fontawesome.com) - The project uses FontAwesome for social media icons.
 
-*FontAwesome* - The project uses FontAwesome for social media icons.
+- [Google Fonts](https://fonts.google.com) - The project uses Work Sans from Google Fonts.
 
-*Google Fonts* - The project uses Work Sans from Google Fonts.
+- [Balsamiq](https://balsamiq.com) - Used in the beginning of the project to create wireframes.
 
-*Balsamiq* - Used in the beginning of the project to create wireframes.
+- [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The project has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality.
+
+
 
 
 # Testing
