@@ -263,7 +263,6 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #777777;
-    transition: all 0.35s ease-in-out;
 }
 
 .social-links i:hover {
@@ -283,9 +282,7 @@ footer {
         padding-bottom: 70%;
 
     }
-
 }
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -306,7 +303,6 @@ footer {
         padding-bottom: 30%;
         padding-right: 40%;
     }
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
