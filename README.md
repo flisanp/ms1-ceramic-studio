@@ -97,7 +97,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
 - [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The project has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality. 
 - [Tinypng](https://tinypng.com) - Used for compressing images.
 - [Freeformatter](https://www.freeformatter.com/) - Used for beautifying code.
-- [Am I Responsive?](http://ami.responsivedesign.is/) - Used to create mockup image for different screen sizes.
+- [Am I Responsive?](http://ami.responsivedesign.is/) - Used for creating mockup image for different screen sizes.
 
 # Testing
 
@@ -119,7 +119,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
     - On every page is a navbar on the top right with a link to the STOCKIST page which makes it easy to navigate to at all time. On the Stockist page you'll find a list with links to all the stores who keeps her products and where the stores are located.
 3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work. ![user story 3](https://github.com/flisanp/ms1-ceramic-studio/blob/804d73b38fd35c52ce43aa615c7607c574d1bc3b/assets/screenshots/social-media.png)
     - In the footer on all pages are links to her four social media sites which makes them clearly visible at all time.
-4. As a curious new visitor to the website I would like to know more information about the ceramist and her work. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/42d5062b500d48c3cb14c1a238147d02c75e1e8d/assets/screenshots/about.png)
+4. As a curious new visitor to the website I would like to know more information about the ceramist and her work. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/1cc4773d50b05c88302e37c3bf91eb4242c1a52d/assets/screenshots/about.png)
     - On every page is a navbar on the top right with a link to the ABOUT page which makes it easy to navigate to at all time. On the About page you can read a bit about her background, the thoughts behind the products the makes and that she does custom work on request. 
 5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 5](https://github.com/flisanp/ms1-ceramic-studio/blob/1e4a4769b708688e0c46cc16f011e8e29a2cf89c/assets/screenshots/shop.png)
    - On the landing page is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is also a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
@@ -153,14 +153,10 @@ Image appears too small and does not move to underneath the text.
 
  - Send Button in the form on the contact page was hidden behind the image on small devices.
    - Removed `position:absolute` from `.button-text-form`
-
-
- - Hero image has the wrong size
 	
- - Mobile responsiveness for hero image not working. 
+ - Mobile responsiveness for hero image not working + Mobile responsiveness for hero text not working. Text size does not decrease and is overlapping.
+    - Added class name `hero-container` to `<div class="container-fluid">` and linked the image with CSS instead of `<img>` element in the html like I did first. Added class name `jumbotron` from Bootstrap to my section element and placed text and button inside that section instead of in seperate `div` elements like I did from the beginning.
 
-
- - Mobile responsiveness for hero text not working. Text size does not decrease and is overlapping.
 
 #### HTML Testing
 https://validator.w3.org/
@@ -169,6 +165,15 @@ https://validator.w3.org/
 https://jigsaw.w3.org/css-validator/
 
 # Deployment
+*To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+Log into GitHub.
+From the list of repositories on the screen, select AJGreaves/portrait-artist.
+From the menu items near the top of the page, select Settings.
+Scroll down to the GitHub Pages section.
+Under Source click the drop-down menu labelled None and select Master Branch
+On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.*
 
 # Credits
 
@@ -185,21 +190,21 @@ https://www.victoriamorrispottery.com
 
 https://www.epocaceramic.com
 
+[Stack Overflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com) was used for solving small issues.
 
 #### Media
 
 - Hero Image on Home page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
-- All photos on Collection page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
+- All photos on Gallery page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
 - Photo on Stockist page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
 - Photo on Contact page by [Gustavo Fring on Pexels](https://www.pexels.com/sv-se/foto/ljus-kvinna-konst-kreativ-4241339/)
 - Photo on About page by [Gustavo Fring on Pexels](https://www.pexels.com/sv-se/@gustavo-fring)
+- Logo in Header made by me
 
 #### Acknowledgements
-[Stack Overflow](https://stackoverflow.com/) was used for solving small issues  
-
-[w3schools](https://www.w3schools.com)
-
-Mentor Sinead O'Brien 
+  
+   - Mentor Sinead O'Brien for valuable feedback on design and UX.
+   - Friends and family for good input and for testing the site.
 
 
 
@@ -207,8 +212,3 @@ Mentor Sinead O'Brien
 
 
 
-
-
-
-
-python3 -m http.server
