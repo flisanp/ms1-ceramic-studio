@@ -53,21 +53,19 @@ All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://ww
 I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people make orders. This didn't feel absolute right with what I wanted to achieve and after have discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy.
 This solution was very satisfying and I think that the website gained a more clear purpose.
 - ##### GALLERY
-My main idea was to have a gallery with images that got bigger when clicked so that a user can view the products more thorough. Unfortunately I'm lacking the skills to do this so I then decided to have bigger images and fewer in a row. I also choose between different titles for the page such as WORK and COLLECTION but I decided that GALLERY made most sense for the purpose. 
+My main idea was to have a masonry gallery with images that got bigger when clicked so that a user can view the products more thorough. Unfortunately I'm lacking the skills to do this so I then decided to have bigger images and fewer in a row. I also choose between different titles for the page such as WORK and COLLECTION but I decided that GALLERY made most sense for the purpose. 
 
 
 
 # Features
 
-**Header** - A fixed header that exists on every page. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.
+**Header** - A fixed header that exists on every page so it's easy accessible at all time. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.
 
-**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed when viewing on smaller screens. 
+**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. 
 
 The navbar has an hover effect so when the user hovers over the different pages the text changes color to a warm terracotta orange. The same color is used to show wich page the user is currently on.
 
-**Home** - The home page features a hero image that shows some of the items in the collection. This will give the user an idea of what type of items the ceramist offers. 
-
-On top of the image is a call to action button that guides the user to her shop.
+**Home** - The home page features a hero image with the text "Jane Smith Ceramic Studio, Handcrafted Homeware" and a call to action button that guides the user to her shop. The image shows some of the ceramic items that she makes and this combined with the text immidiately gives the user clear information on what the website is about.
 
 **Collection** - The collection page features a masonry gallery with images of all her work. 
 
@@ -80,7 +78,7 @@ On top of the image is a call to action button that guides the user to her shop.
 **Footer** - A fixed footer that exists on every page. Located in the center of the footer are four social media icons with links to the ceramist social media pages. The links have the same hover effects as the navbar and changes color when hovering over them.
 
 #### Features Left to Implement
-- A webshop directly on her page so that customers easily can buy her work without beeing redirect to Etsy.com.
+- A webshop directly on her page so that customers easily can buy her work without beeing redirected to Etsy.com.
 
 - A lightbox feature to the image galley so that customers can get a better view of the items.
 
@@ -90,19 +88,16 @@ On top of the image is a call to action button that guides the user to her shop.
 
 
 - HTML5 and CSS3
-
+- [GitPod](https://www.gitpod.io) - 
+- [GitHub](https://github.com) - 
 - [Bootstrap](https://getbootstrap.com) - The project uses Bootstrap to make the site responsive and to implement features such as the navbar and the buttons.
-
 - [FontAwesome](https://fontawesome.com) - The project uses FontAwesome for social media icons.
-
 - [Google Fonts](https://fonts.google.com) - The project uses Work Sans from Google Fonts.
-
 - [Balsamiq](https://balsamiq.com) - Used in the beginning of the project to create wireframes.
-
-- [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The project has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality.
-
-
-
+- [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The project has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality. 
+- [Tinypng](https://tinypng.com) - Used for compressing images.
+- [Freeformatter](https://www.freeformatter.com/) - Used for beautifying code.
+- [Am I Responsive?](http://ami.responsivedesign.is/) - Used to create mockup image for different screen sizes.
 
 # Testing
 
