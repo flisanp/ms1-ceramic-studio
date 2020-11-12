@@ -34,9 +34,12 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 #### Strategy 
 I wanted to make a user-friendly website for the ceramist where she easily can offer her products to potential customers and retailers. The main focus when you enter the site is therefore a call to action button that leads straight to her shop on [Etsy](https://www.etsy.com/). 
 
-
 #### Surface
-I wanted the site to be easy navigated with a clean and minimalistic design.The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
+I wanted the site to be easy navigated with a clean and minimalistic design. The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
+
+##### Images
+The images used throughout the site is carefully choosen and is of great importence to showcase the ceramist work and to give a feeling about who she is. The photos of her work is all uniform in their apparence which gives a professional touch to the site. The photos of the ceramist herself on the about page and contact page has more of a personal character which gives the site a warm and welcoming feeling. The hero image on the landing page gives a calm first impression and also shows the skills of the ceramist. 
+All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
 
 #### Wireframes
 - [Home](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Home.png) 
@@ -47,8 +50,6 @@ I wanted the site to be easy navigated with a clean and minimalistic design.The 
 
 
 # Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 **Header** - A fixed header that exists on every page. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.
 
