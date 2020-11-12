@@ -203,7 +203,7 @@ https://www.epocaceramic.com
 
 #### Acknowledgements
   
-   - Mentor Sinead O'Brien for valuable feedback on design and UX.
+   - Mentor Sinead O'Brien for valuable feedback throughout the project.
    - Friends and family for good input and for testing the site.
 
 
