@@ -22,12 +22,16 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 
 
 #### User Stories
-- As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
+
 - As a potential customer I want to visit her shop to find out what products I can buy.
-- As a stockist I would like to view her collection of products to see if it's something I would buy for my store.
 - As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products.
-- As a follower on social media I want to see the ceramist collection so that I can see if it’s something I want to buy.
 - As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work.
+- As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post.
+- As a retailer I would like to view her collection of products to see if it's something I would buy for my store.
+- As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
+
+
+
 
 #### Strategy 
 I wanted to make a user-friendly website for the ceramist where she can offer her products for potential customers. I wanted the site to be easy navigated with a clean and minimalistic design. It’s important both for a customer and a retailer to see what kinds of products the ceramist offers and they should immidiately see where to navigate to do this, the first thing you see is therefore a call to action button that leads straight to her shop on Etsy.
