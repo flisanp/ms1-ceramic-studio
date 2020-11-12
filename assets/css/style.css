@@ -23,7 +23,6 @@ h2 {
     color: #777777;
 }
 
-
 h3 {
     font-family: 'work sans', sans-serif;
     font-weight: 200;
@@ -49,9 +48,6 @@ h5 {
     color: #777777
 }
 
-
-
-
 /*------------ HEADER/NAVBAR ------------*/
 
 header {
@@ -70,6 +66,7 @@ header {
     padding-right: 20px;
 }
 
+/* code credits for override btn color in Bootstrap: https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap*/
 .menu a:hover {
     color: #E2725B !important;
 }
@@ -78,14 +75,12 @@ header {
     color: #E2725B !important;
 }
 
-
 /*------------ HERO IMAGE ------------*/
 
 .hero-container {
     height: 100vh;
     background: url("/assets/images/hero-image.jpg") no-repeat bottom right fixed;
     background-size: cover;
-
     padding-bottom: 30%;
 
     display: flex;
@@ -126,7 +121,6 @@ header {
     border-color: #E2725B;
 }
 
-
 /*------------ GALLERY ------------*/
 
 #photo {
@@ -152,6 +146,7 @@ header {
     margin-bottom: 100px;
 }
 
+/*Bootstrap class name, makes image responsive*/
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -167,7 +162,7 @@ header {
     padding-right: 30px;
 }
 
-.stockist-header{
+.stockist-header {
     font-family: 'work sans', sans-serif;
     font-weight: 400;
     font-size: 28px;
@@ -216,105 +211,103 @@ header {
     text-decoration: none;
     color: #E2725B;
 }
-    
+
 .about-text a:hover {
     color: #777777;
 }
-    /*------------ CONTACT ------------*/
 
-    .form-group {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+/*------------ CONTACT ------------*/
 
-    .button-text-form {
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'work sans', sans-serif;
-        font-weight: 500;
-        color: #fff;
-        background: #E2725B;
-        border-color: transparent;
-        margin-left: 20px;
-    }
+/*Bootstrap class name for creating a form*/
+.form-group {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-    .button-text-form:hover {
-        color: #E2725B;
-        background: transparent;
-        border-color: #E2725B;
-    }
+.button-text-form {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'work sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background: #E2725B;
+    border-color: transparent;
+    margin-left: 20px;
+}
+
+.button-text-form:hover {
+    color: #E2725B;
+    background: transparent;
+    border-color: #E2725B;
+}
 
 
-    /*------------ FOOTER ------------*/
+/*------------ FOOTER ------------*/
 
-    footer {
-        height: 80px;
-        background-color: #fff;
-        margin: 0;
-    }
+footer {
+    height: 80px;
+    background-color: #fff;
+    margin: 0;
+}
 
-    .social-links {
-        padding-bottom: 10px;
-        padding-top: 15px;
-    }
+.social-links {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
 
-    .social-links li a i {
-        width: 32px;
-        height: 32px;
-        padding: 12px 0;
-        font-size: 20px;
-        line-height: 7px;
-        text-align: center;
-        color: #777777;
-        transition: all 0.35s ease-in-out;
-    }
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #777777;
+    transition: all 0.35s ease-in-out;
+}
 
-    .social-links i:hover {
-        color: #E2725B;
-    }
+.social-links i:hover {
+    color: #E2725B;
+}
 
-    /*------------ MEDIA QUERIES ------------*/
+/*------------ MEDIA QUERIES ------------*/
 
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {
-       
-    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 
-        .hero-container {
-            position: fixed;
-            padding-bottom: 70%;
-
-        }
+    .hero-container {
+        position: fixed;
+        padding-bottom: 70%;
 
     }
 
+}
 
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {
 
-        #photo {
-            clear: both;
-            line-height: 0;
-            column-count: 3;
-            column-gap: 0;
-            margin-bottom: 100px;
-        }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 
-        h1 {
-            font-size: 60px;
-        }
-
-        .hero-container {
-            padding-bottom: 30%;
-            padding-right: 40%;
-        }
-
+    #photo {
+        clear: both;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 0;
+        margin-bottom: 100px;
     }
 
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
-        
+    h1 {
+        font-size: 60px;
     }
+
+    .hero-container {
+        padding-bottom: 30%;
+        padding-right: 40%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
