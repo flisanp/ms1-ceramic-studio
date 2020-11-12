@@ -26,9 +26,11 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 1. As a potential customer I want to visit her shop to find out what products I can buy.
 2. As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products.
 3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work.
-4. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post.
-5. As a retailer I would like to view her collection of products to see if it's something I would buy for my store.
-6. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
+4. As a curious new visitor to the website I would like to know more information about the ceramist and her work.
+5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post.
+6. As a retailer I would like to view her collection of products to see if it's something I would buy for my store.
+7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
+
 
 #### Strategy 
 I wanted to make a user-friendly website for the ceramist where she easily can offer her products to potential customers and retailers. The main focus when you enter the site is therefore a call to action button that leads straight to her shop on [Etsy](https://www.etsy.com/). 
@@ -117,16 +119,18 @@ On top of the image is a call to action button that guides the user to her shop.
 #### Testing User Stories 
 
 1. As a potential customer I want to visit her shop to find out what products I can buy. ![user story 1](https://github.com/flisanp/ms1-ceramic-studio/blob/6082d63eecfa564c58e1d9267fe74a3902d17516/assets/screenshots/shop.png)
-    - The first thing you see when you visit the website is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
+    - On the landing page is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
 2. As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products. ![user story 2](https://github.com/flisanp/ms1-ceramic-studio/blob/f9e8637f57e471259a8960ed993c9fed71ce8442/assets/screenshots/stockists.png)
-    - On every page is a navbar on the top right with a link to the STOCKIST page which makes it easy to navigate to at all time. On the Stockist page you find a list to all the stores who keeps her products and where they are located.
+    - On every page is a navbar on the top right with a link to the STOCKIST page which makes it easy to navigate to at all time. On the Stockist page you'll find a list with links to all the stores who keeps her products and where the stores are located.
 3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work. ![user story 3](https://github.com/flisanp/ms1-ceramic-studio/blob/804d73b38fd35c52ce43aa615c7607c574d1bc3b/assets/screenshots/social-media.png)
     - In the footer on all pages are links to her four social media sites which makes them clearly visible at all time.
-4. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/1e4a4769b708688e0c46cc16f011e8e29a2cf89c/assets/screenshots/shop.png)
-   - The first thing you see when you visit the website is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is also a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
-5. As a retailer I would like to view her collection of products to see if it's something I would buy for my store. ![user story 5](https://github.com/flisanp/ms1-ceramic-studio/blob/1e4a4769b708688e0c46cc16f011e8e29a2cf89c/assets/screenshots/gallery.png)
+4. As a curious new visitor to the website I would like to know more information about the ceramist and her work. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/42d5062b500d48c3cb14c1a238147d02c75e1e8d/assets/screenshots/about.png)
+    - On every page is a navbar on the top right with a link to the ABOUT page which makes it easy to navigate to at all time. On the About page you can read a bit about her background, the thoughts behind the products the makes and that she does custom work on request. 
+5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 5](https://github.com/flisanp/ms1-ceramic-studio/blob/1e4a4769b708688e0c46cc16f011e8e29a2cf89c/assets/screenshots/shop.png)
+   - On the landing page is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is also a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
+6. As a retailer I would like to view her collection of products to see if it's something I would buy for my store. ![user story 6](https://github.com/flisanp/ms1-ceramic-studio/blob/1e4a4769b708688e0c46cc16f011e8e29a2cf89c/assets/screenshots/gallery.png)
     - On every page is a navbar on the top right with a link to the GALLERY page which makes it easy to navigate to at all time. The gallery presents images that showcases all the items available. 
-6. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries. ![user story 6](https://github.com/flisanp/ms1-ceramic-studio/blob/9c5625893a6c397c043850bd66e2f1e74e12b015/assets/screenshots/contact.png)
+7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries. ![user story 7](https://github.com/flisanp/ms1-ceramic-studio/blob/9c5625893a6c397c043850bd66e2f1e74e12b015/assets/screenshots/contact.png)
     - On every page is a navbar on the top right with a link to the CONTACT page which makes it easy to navigate to at all time. On the page is a contact form that is easy to fill in for a quick way to get in touch with the ceramist.
 
 #### During Development
