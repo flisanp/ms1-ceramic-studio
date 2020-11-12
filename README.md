@@ -110,12 +110,11 @@ On top of the image is a call to action button that guides the user to her shop.
 
 #### Testing User Stories 
 
-1. As a potential customer I want to visit her shop to find out what products I can buy.
-![user story 1](https://github.com/flisanp/ms1-ceramic-studio/blob/13365a44b9e110c0cb5f55bba23cfe51286e2a4c/assets/screenshots/shop.png)
+1. As a potential customer I want to visit her shop to find out what products I can buy. ![user story 1](https://github.com/flisanp/ms1-ceramic-studio/blob/6082d63eecfa564c58e1d9267fe74a3902d17516/assets/screenshots/shop.png)
     - The first thing you see when you visit the website is a call to action button that says "SHOP NOW" which leads you immidiately to her Etsy shop. The button is in a terracotta color so it clearly standout from the background.
 2. As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products. ![user story 2](https://github.com/flisanp/ms1-ceramic-studio/blob/f9e8637f57e471259a8960ed993c9fed71ce8442/assets/screenshots/stockists.png)
     - The navbar with the link to the STOCKIST page is located on the top right which makes it easy to navigate as soon as you visit the website.
-3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work. ![user story 3](https://github.com/flisanp/ms1-ceramic-studio/blob/f9e8637f57e471259a8960ed993c9fed71ce8442/assets/screenshots/social-media.png)
+3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work. ![user story 3](https://github.com/flisanp/ms1-ceramic-studio/blob/6082d63eecfa564c58e1d9267fe74a3902d17516/assets/screenshots/social-media.png)
     - In the footer on all pages are links to her four social media sites which makes them clearly visible at all time.
 4. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/1e4a4769b708688e0c46cc16f011e8e29a2cf89c/assets/screenshots/shop.png)
     - In the top right corner is the navbar where you can find the COLLECTION page with a image gallery on all the items available.
