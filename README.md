@@ -98,10 +98,10 @@ On top of the image is a call to action button that guides the user to her shop.
 - Links in navbar takes you to the correct pages.
 - Hover effect on links in navbar.
 - Action effect on actual site your visiting.
-- Links to stockists works and opens in a new tab window
-- Form 
-- Responsiveness
-- Links social media
+- All links works and opens in a new tab window.
+- The form checks if it has the correct input before submitting.
+- Responsiveness looks nice on different screen sizes.
+- All links to social media sites opens in a new tab window.
 
 #### Testing User Stories 
 - As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
