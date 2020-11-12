@@ -4,7 +4,7 @@
 
 [A live version of the page can be viewed here](link)
 
-![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/f9e8637f57e471259a8960ed993c9fed71ce8442/assets/screenshots/mockup-image.png)
+![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/f4fc81dd87b5c0933a4ec38b1c1a4a862e309e58/assets/screenshots/mockup.png)
 
 This website is made for Jane Smith, a fictional ceramist based in Austin, TX who wants to present and sell her work to potential customers or business clients. The site features links to her shop, a gallery of her work, information about the ceramist and her work methods, links to all her stockists and a contact page where you can leave her a message.
 
