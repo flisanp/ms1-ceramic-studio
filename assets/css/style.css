@@ -1,309 +1,301 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;800&display=swap');
 
-
 body {
-    font-family: 'work sans', sans-serif;
-    color: #777777;
+  font-family: 'work sans', sans-serif;
+  color: #777777;
 }
 
 h1 {
-    font-family: "Work Sans", sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-    letter-spacing: -7px;
-    color: #E2725B;
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: -7px;
+  color: #E2725B;
 }
 
 h2 {
-    font-family: 'work sans', sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #777777;
+  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #777777;
 }
 
 h3 {
-    font-family: 'work sans', sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #777777;
+  font-family: 'work sans', sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #777777;
 }
 
 h4 {
-    font-family: 'work sans', sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #777777;
+  font-family: 'work sans', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #777777;
 }
 
 h5 {
-    font-family: 'work sans', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #777777
+  font-family: 'work sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #777777;
 }
 
 /*------------ HEADER/NAVBAR ------------*/
 
 header {
-    margin: 0;
-    height: 100px;
-    background-color: #fff;
+  margin: 0;
+  height: 100px;
+  background-color: #fff;
 }
 
 .menu {
-    font-family: 'work sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #777777;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding-right: 20px;
+  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777777;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-right: 20px;
 }
 
 /* code credits for override btn color in Bootstrap: https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap*/
 .menu a:hover {
-    color: #E2725B !important;
+  color: #E2725B !important;
 }
 
 .active {
-    color: #E2725B !important;
+  color: #E2725B !important;
 }
 
 /*------------ HERO IMAGE ------------*/
 
 .hero-container {
-    height: 100vh;
-    background: url("/assets/images/hero-image.jpg") no-repeat bottom right fixed;
-    background-size: cover;
-    padding-bottom: 30%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  background: url("/assets/images/hero-image.jpg") no-repeat bottom right fixed;
+  background-size: cover;
+  padding-bottom: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .jumbotron {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 /*------------ HERO TEXT ------------*/
 
 .hero-sub-header {
-    color: #fff;
+  color: #fff;
 }
 
 /*------------ HERO BUTTON ------------*/
 
 .btn-pos {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .button-text {
-    text-transform: uppercase;
-    font-family: 'work sans', sans-serif;
-    font-weight: 500;
-    color: #fff;
-    background: #E2725B;
-    border-color: transparent;
+  text-transform: uppercase;
+  font-family: 'work sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background: #E2725B;
+  border-color: transparent;
 }
 
 .button-text:hover {
-    color: #fff;
-    background: transparent;
-    border-color: #E2725B;
+  color: #fff;
+  background: transparent;
+  border-color: #E2725B;
 }
 
 /*------------ GALLERY ------------*/
 
 #photo {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-    margin-bottom: 100px;
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0;
+  margin-bottom: 100px;
 }
 
 #photo img {
-    width: 100%;
-    padding: 2px;
+  width: 100%;
+  padding: 2px;
 }
 
 /*------------ IMAGES ------------*/
 
 .info-image {
-    width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin-bottom: 100px;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 100px;
 }
 
 /*Bootstrap class name, makes image responsive*/
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /*------------ STOCKISTS ------------*/
 
 .stockists-list {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    list-style-type: none;
-    text-align: center;
-    padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  text-align: center;
+  padding-right: 30px;
 }
 
 .stockist-header {
-    font-family: 'work sans', sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #777777;
+  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #777777;
 }
 
 .stockists-links {
-    font-family: 'work sans', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
+  font-family: 'work sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .stockists-links a {
-    text-decoration: none;
-    color: #777777;
+  text-decoration: none;
+  color: #777777;
 }
 
 .stockists-links a:hover {
-    color: #E2725B;
+  color: #E2725B;
 }
 
 
 /*------------ ABOUT ------------*/
 
 .subheading {
-    text-align: center;
-    padding-top: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .about-text {
-    text-align: justify;
-    vertical-align: middle;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding-right: 20px;
+  text-align: justify;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
 }
 
 .about-text a {
-    font-weight: 400;
-    font-size: 18px;
-    text-decoration: none;
-    color: #E2725B;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #E2725B;
 }
 
 .about-text a:hover {
-    color: #777777;
+  color: #777777;
 }
 
 /*------------ CONTACT ------------*/
 
 /*Bootstrap class name for creating a form*/
 .form-group {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .button-text-form {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'work sans', sans-serif;
-    font-weight: 500;
-    color: #fff;
-    background: #E2725B;
-    border-color: transparent;
-    margin-left: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'work sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background: #E2725B;
+  border-color: transparent;
+  margin-left: 20px;
 }
 
 .button-text-form:hover {
-    color: #E2725B;
-    background: transparent;
-    border-color: #E2725B;
+  color: #E2725B;
+  background: transparent;
+  border-color: #E2725B;
 }
 
 
 /*------------ FOOTER ------------*/
 
 footer {
-    height: 80px;
-    background-color: #fff;
-    margin: 0;
+  height: 80px;
+  background-color: #fff;
+  margin: 0;
 }
 
 .social-links {
-    padding-bottom: 10px;
-    padding-top: 15px;
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    font-size: 20px;
-    line-height: 7px;
-    text-align: center;
-    color: #777777;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  font-size: 20px;
+  line-height: 7px;
+  text-align: center;
+  color: #777777;
 }
 
 .social-links i:hover {
-    color: #E2725B;
+  color: #E2725B;
 }
 
 /*------------ MEDIA QUERIES ------------*/
 
 /*Device breakpoints taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-    .hero-container {
-        position: fixed;
-        padding-bottom: 70%;
-
-    }
+  .hero-container {
+    position: fixed;
+    padding-bottom: 70%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    #photo {
-        clear: both;
-        line-height: 0;
-        column-count: 3;
-        column-gap: 0;
-        margin-bottom: 100px;
-    }
+  #photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+    margin-bottom: 100px;
+  }
 
-    h1 {
-        font-size: 60px;
-    }
+  h1 {
+    font-size: 60px;
+  }
 
-    .hero-container {
-        padding-bottom: 30%;
-        padding-right: 40%;
-    }
+  .hero-container {
+    padding-bottom: 30%;
+    padding-right: 40%;
+  }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
