@@ -4,7 +4,7 @@
 
 [A live version of the page can be viewed here](link)
 
-![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/f4fc81dd87b5c0933a4ec38b1c1a4a862e309e58/assets/screenshots/mockup.png)
+![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/902ce6344f2ef6e9d7180ac333d0099c55a6ad6e/assets/screenshots/mockup.png)
 
 This website is made for Jane Smith, a fictional ceramist based in Austin, TX who wants to present and sell her work to potential customers or business clients. The site features links to her shop, a gallery of her work, information about the ceramist and her work methods, links to all her stockists and a contact page where you can leave her a message.
 
@@ -67,9 +67,9 @@ The navbar has an hover effect so when the user hovers over the different pages 
 
 **Home** - The home page features a hero image with the text "Jane Smith Ceramic Studio, Handcrafted Homeware" and a call to action button that guides the user to her shop. The image shows some of the ceramic items that she makes and this combined with the text immidiately gives the user clear information on what the website is about.
 
-**Collection** - The collection page features a masonry gallery with images of all her work. 
+**Gallery** - The gallery page features a masonry gallery with images of all her work. 
 
-**About** - The about page features a photo of the ceramist to give a personal feeling to who’s making the items. The page also provides a short text that gives some information about who she is and her thoughts about her work. You can also read that she’s available for collaborations.
+**About** - The about page features a photo of the ceramist to present the person who’s making the items. The page also provides a short text that gives some information about who she is and her thoughts about her work. You can also read that she’s available for collaborations.
 
 **Stockists** - The stockist page features an unordered list with links to all her stockists so that users easily can access their websites and get information on where to purchase her items.
 
@@ -80,7 +80,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
 #### Features Left to Implement
 - A webshop directly on her page so that customers easily can buy her work without beeing redirected to Etsy.com.
 
-- A lightbox feature to the image galley so that customers can get a better view of the items.
+- A lightbox feature to the image gallery so that customers can get a better view of the items.
 
 - The forms functionality.
 
@@ -119,7 +119,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
     - On every page is a navbar on the top right with a link to the STOCKIST page which makes it easy to navigate to at all time. On the Stockist page you'll find a list with links to all the stores who keeps her products and where the stores are located.
 3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work. ![user story 3](https://github.com/flisanp/ms1-ceramic-studio/blob/804d73b38fd35c52ce43aa615c7607c574d1bc3b/assets/screenshots/social-media.png)
     - In the footer on all pages are links to her four social media sites which makes them clearly visible at all time.
-4. As a curious new visitor to the website I would like to know more information about the ceramist and her work. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/1cc4773d50b05c88302e37c3bf91eb4242c1a52d/assets/screenshots/about.png)
+4. As a curious new visitor to the website I would like to know more information about the ceramist and her work. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/902ce6344f2ef6e9d7180ac333d0099c55a6ad6e/assets/screenshots/about.png)
     - On every page is a navbar on the top right with a link to the ABOUT page which makes it easy to navigate to at all time. On the About page you can read a bit about her background, the thoughts behind the products the makes and that she does custom work on request. 
 5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 5](https://github.com/flisanp/ms1-ceramic-studio/blob/1e4a4769b708688e0c46cc16f011e8e29a2cf89c/assets/screenshots/shop.png)
    - On the landing page is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is also a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
