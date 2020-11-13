@@ -4,7 +4,7 @@
 
 [A live version of the page can be viewed here](link)
 
-![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/902ce6344f2ef6e9d7180ac333d0099c55a6ad6e/assets/screenshots/mockup.png)
+![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/screenshots/mockup.png)
 
 This website is made for Jane Smith, a fictional ceramist based in Austin, TX who wants to present and sell her work to potential customers or business clients. The site features links to her shop, a gallery of her work, information about the ceramist and her work methods, links to all her stockists and a contact page where you can leave her a message.
 
@@ -42,11 +42,11 @@ The images used throughout the site is carefully choosen and is of great importe
 All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 #### Wireframes
-- [Home](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Home.png) 
-- [Collection](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Collection.png) 
-- [About](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/About.png) 
-- [Stockists](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Stockists.png) 
-- [Contact](https://github.com/flisanp/ms1-ceramic-studio/blob/e40082965bbd60de13ec95dec8225cf396bce877/wireframes/Contact.png) 
+- [Home](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/home.png) 
+- [Gallery](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/gallery.png) 
+- [About](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/about.png) 
+- [Stockists](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/stockists.png) 
+- [Contact](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/contact.png) 
 
 #### Design result vs. wireframes
 - ##### SHOP
