@@ -9,7 +9,7 @@
 This website is made for Jane Smith, a fictional ceramist based in Austin, TX who wants to present and sell her work to potential customers or business clients. The site features links to her shop, a gallery of her work, information about the ceramist and her work methods, links to all her stockists and a contact page where you can leave her a message.
 
 
-#### The goals for this website is to:
+#### The Goals For This Website Is To:
 - Give a good and professional first impression to customers and retailers.
 - Sell products to customers or retailers.
 - Show customers where to buy the products.
@@ -52,10 +52,6 @@ All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://ww
 - ##### SHOP
 I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people make orders. This didn't feel absolute right with what I wanted to achieve and after have discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy.
 This solution was very satisfying and I think that the website gained a more clear purpose.
-- ##### GALLERY
-My main idea was to have a masonry gallery with images that got bigger when clicked so that a user can view the products more thorough. Unfortunately I'm lacking the skills to do this so I then decided to have bigger images and fewer in a row. I also choose between different titles for the page such as WORK and COLLECTION but I decided that GALLERY made most sense for the purpose. 
-
-
 
 # Features
 
@@ -77,10 +73,8 @@ The navbar has an hover effect so when the user hovers over the different pages 
 
 **Footer** - A fixed footer that exists on every page. Located in the center of the footer are four social media icons with links to the ceramist social media pages. The links have the same hover effects as the navbar and changes color when hovering over them.
 
-#### Features Left to Implement
+#### Features Left To Implement
 - A webshop directly on her page so that customers easily can buy her work without beeing redirected to Etsy.com.
-
-- A lightbox feature to the image gallery so that customers can get a better view of the items.
 
 - The forms functionality.
 
@@ -101,7 +95,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
 
 # Testing
 
-#### Manually Testing
+#### I Manually Tested The Following Features
 - Logo image in header navigates back to Home page on every site. This was clear to everyone who tested the site.
 - Links in navbar takes you to the correct pages.
 - Hover effect on links in navbar.
@@ -128,7 +122,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
 7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries. ![user story 7](https://github.com/flisanp/ms1-ceramic-studio/blob/9c5625893a6c397c043850bd66e2f1e74e12b015/assets/screenshots/contact.png)
     - On every page is a navbar on the top right with a link to the CONTACT page which makes it easy to navigate to at all time. On the page is a contact form that is easy to fill in for a quick way to get in touch with the ceramist.
 
-#### During Development
+#### During Development I Fixed The Following Bugs
 
  - Mobile responsiveness for about page not worked as intended.
 Image appears too small and does not move to underneath the text.
@@ -175,7 +169,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 7. Click Save and the website is now deployed.
 8. 
 
-### How to run the code locally
+### How To Run The Code Locally
 1. 
 
 # Credits
