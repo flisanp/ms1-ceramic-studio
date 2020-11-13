@@ -102,7 +102,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
 # Testing
 
 #### Manually Testing
-- Logo image in header navigates back to Home page on every site.
+- Logo image in header navigates back to Home page on every site. This was clear to everyone who tested the site.
 - Links in navbar takes you to the correct pages.
 - Hover effect on links in navbar.
 - Action effect on actual site your visiting.
@@ -165,15 +165,16 @@ https://validator.w3.org/
 https://jigsaw.w3.org/css-validator/
 
 # Deployment
-*To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-Log into GitHub.
-From the list of repositories on the screen, select AJGreaves/portrait-artist.
-From the menu items near the top of the page, select Settings.
-Scroll down to the GitHub Pages section.
-Under Source click the drop-down menu labelled None and select Master Branch
-On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.*
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1. Navigate to flisanp repositories.
+2. Select the one that is called ms1-ceramic-studio from the list.
+3. Click on settings in the menu that is located to the top right.
+4. Scroll down to "GitHub Pages"
+5. Under "Source", choose None in the drop-down menu.
+6. Select Master Branch.
+7. Click Save and the website is now deployed.
+8. 
+
 
 # Credits
 
@@ -190,7 +191,7 @@ https://www.victoriamorrispottery.com
 
 https://www.epocaceramic.com
 
-[Stack Overflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com) was used for solving small issues.
+[Stack Overflow](https://stackoverflow.com/) was used for solving a issue to override btn color in Bootstrap: https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap
 
 #### Media
 
@@ -204,7 +205,7 @@ https://www.epocaceramic.com
 #### Acknowledgements
   
    - Mentor Sinead O'Brien for valuable feedback throughout the project.
-   - Friends and family for good input and for testing the site.
+   - Friends and family for good input and for testing the usability on site on different devices.
 
 
 
