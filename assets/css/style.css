@@ -269,6 +269,8 @@ footer {
 
 /*------------ MEDIA QUERIES ------------*/
 
+/*Device breakpoints taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 

@@ -175,6 +175,8 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 7. Click Save and the website is now deployed.
 8. 
 
+### How to run the code locally
+1. 
 
 # Credits
 
@@ -193,6 +195,9 @@ https://www.epocaceramic.com
 
 [Stack Overflow](https://stackoverflow.com/) was used for solving a issue to override btn color in Bootstrap: https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap
 
+Device breakpoints in CSS was taken from: [w3schools.com](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) 
+
+
 #### Media
 
 - Hero Image on Home page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
@@ -205,7 +210,7 @@ https://www.epocaceramic.com
 #### Acknowledgements
   
    - Mentor Sinead O'Brien for valuable feedback throughout the project.
-   - Friends and family for good input and for testing the usability on site on different devices.
+   - Friends and family for good input and for testing the usability of the site and responsiveness on different devices.
 
 
 
