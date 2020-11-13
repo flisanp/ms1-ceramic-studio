@@ -47,7 +47,7 @@ h5 {
   color: #777777;
 }
 
-/*------------ HEADER/NAVBAR ------------*/
+/*------------ header/navbar ------------*/
 
 header {
   margin: 0;
@@ -74,7 +74,7 @@ header {
   color: #E2725B !important;
 }
 
-/*------------ HERO IMAGE ------------*/
+/*------------ hero image ------------*/
 
 .hero-container {
   height: 100vh;
@@ -90,13 +90,13 @@ header {
   background-color: transparent;
 }
 
-/*------------ HERO TEXT ------------*/
+/*------------ hero text ------------*/
 
 .hero-sub-header {
   color: #fff;
 }
 
-/*------------ HERO BUTTON ------------*/
+/*------------ hero button ------------*/
 
 .btn-pos {
   margin-top: 20px;
@@ -117,7 +117,7 @@ header {
   border-color: #E2725B;
 }
 
-/*------------ GALLERY ------------*/
+/*------------ gallery ------------*/
 
 #photo {
   clear: both;
@@ -132,7 +132,7 @@ header {
   padding: 2px;
 }
 
-/*------------ IMAGES ------------*/
+/*------------ images ------------*/
 
 .info-image {
   width: 100%;
@@ -148,7 +148,7 @@ header {
   height: auto;
 }
 
-/*------------ STOCKISTS ------------*/
+/*------------ stockists ------------*/
 
 .stockists-list {
   margin-top: 20px;
@@ -186,7 +186,7 @@ header {
 }
 
 
-/*------------ ABOUT ------------*/
+/*------------ about ------------*/
 
 .subheading {
   text-align: center;
@@ -212,7 +212,7 @@ header {
   color: #777777;
 }
 
-/*------------ CONTACT ------------*/
+/*------------ contact ------------*/
 
 /*Bootstrap class name for creating a form*/
 .form-group {
@@ -238,7 +238,7 @@ header {
 }
 
 
-/*------------ FOOTER ------------*/
+/*------------ footer ------------*/
 
 footer {
   height: 80px;
@@ -265,11 +265,9 @@ footer {
   color: #E2725B;
 }
 
-/*------------ MEDIA QUERIES ------------*/
+/*------------ media queries ------------*/
 
 /*Device breakpoints taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
