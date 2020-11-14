@@ -6,21 +6,20 @@
 
 ![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/screenshots/mockup.png)
 
-This website is made for Jane Smith, a fictional ceramist based in Austin, TX who wants to present and sell her work to potential customers or business clients. The site features links to her shop, a gallery of her work, information about the ceramist and her work methods, links to all her stockists and a contact page where you can leave her a message.
+This website is made for Jane Smith, a fictional ceramist based in Austin, TX who wants to present and sell her work to potential customers or business clients. The site features links to her shop, a gallery of her work, information about the ceramist, links to her stockists and a contact page.
 
 
-#### The Goals For This Website Is To:
-- Be user-friendly. 
+# UX
+
+#### The Goals For This Website Is To: 
 - Give a good and professional first impression to customers and retailers.
+- Be user-friendly.
 - Sell products to customers or retailers.
 - Show customers where to buy the products.
 - Show a wide range of items to a customer who's looking for a unique piece for their home.
 - Show a wide range of items to a retailer who wants to find good handcrafted products for their store.
 - Let users now that the ceramist is open to collaborations.
 - Make it easy for users to contact the ceramist.
-
-# UX
-
 
 #### User Stories
 
@@ -45,11 +44,6 @@ All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://ww
 - [Stockists](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/stockists.png) 
 - [Contact](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/contact.png) 
 
-#### Design result vs. wireframes
-- ##### SHOP
-I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people make orders. This didn't feel absolute right with what I wanted to achieve and after have discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy.
-This solution was very satisfying and I think that the website gained a more clear purpose.
-
 # Features
 
 **Header** - A fixed header that exists on every page so it's easy accessible at all time. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.  
@@ -57,9 +51,9 @@ This solution was very satisfying and I think that the website gained a more cle
 **Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has an hover effect so when the user hovers over the different pages the text changes color. The same color is used to show wich page the user is currently on.
 
 **Home** - The home page features a hero image with the text "Jane Smith Ceramic Studio, Handcrafted Homeware" and a call to action button that guides the user to her shop. The image shows some of the ceramic items that she makes and this combined with the text immidiately gives the user clear information on what the website is about.
- - I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people make orders. This didn't feel right with what I wanted to achieve though and after having discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy. This solution was very satisfying and I think that the website gained a more clear purpose.
+I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people make orders. This didn't feel right with what I wanted to achieve though and after having discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy. I think this solution gained a more clear purpose for the website.
 
-**Gallery** - The gallery page features a masonry gallery with images of all her work. 
+**Gallery** - The gallery page features a masonry gallery with images of all her work. When you click the images they opens in a lightbox.
 
 **About** - The about page features a photo of the ceramist to present the person who’s making the items. The page also provides a short text that gives some information about who she is and her thoughts about her work. You can also read that she’s available for collaborations.
 
@@ -78,18 +72,18 @@ This solution was very satisfying and I think that the website gained a more cle
 
 
 - HTML5 and CSS3
-- [GitPod](https://www.gitpod.io) - 
-- [GitHub](https://github.com) - 
-- [Bootstrap](https://getbootstrap.com) - The project uses Bootstrap to make the site responsive and to implement features such as the navbar and the buttons.
-- [FontAwesome](https://fontawesome.com) - The project uses FontAwesome for social media icons.
-- [Google Fonts](https://fonts.google.com) - The project uses Work Sans from Google Fonts.
-- [Balsamiq](https://balsamiq.com) - Used in the beginning of the project to create wireframes.
-- [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The project has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality. 
-- [Tinypng](https://tinypng.com) - Used for compressing images.
-- [Freeformatter](https://www.freeformatter.com/) - Used for beautifying HTML and CSS code.
-- [A11y](https://color.a11y.com) - Used for checking the websites color contrast accessibility 
-- [Am I Responsive?](http://ami.responsivedesign.is/) - Used for creating the mockup image in the beginning of this README file.
-- [InDesign](https://www.adobe.com/se/products/indesign.html) Used this program for creating the logo image.
+- [GitPod](https://www.gitpod.io) - The developer used GitPod for their IDE while building the website.
+- [GitHub](https://github.com) - This project uses GitHub to store the projects code after being pushed from Git.
+- [Bootstrap](https://getbootstrap.com) - This project uses Bootstrap to make the site responsive and to implement features such as the navbar and the buttons.
+- [FontAwesome](https://fontawesome.com) - This project uses FontAwesome for social media icons.
+- [Google Fonts](https://fonts.google.com) - This project uses Work Sans from Google Fonts.
+- [Balsamiq](https://balsamiq.com) - The developer used Balsamiq to create wireframes.
+- [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The developer has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality. 
+- [Tinypng](https://tinypng.com) - The developer used Tinypng for compressing images.
+- [Freeformatter](https://www.freeformatter.com/) - The developer used Freeformatter for beautifying HTML and CSS code.
+- [A11y](https://color.a11y.com) - The developer used A11y for checking the websites color contrast accessibility 
+- [Am I Responsive?](http://ami.responsivedesign.is/) - The developer used Am I Responsive? for creating the mockup image in the beginning of this README file.
+- [InDesign](https://www.adobe.com/se/products/indesign.html) The developer used InDesign for creating the logo image.
 
 # Testing
 
