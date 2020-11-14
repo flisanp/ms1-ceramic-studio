@@ -2,7 +2,7 @@
 # Jane Smith Ceramic Studio
 
 
-[A live version of the page can be viewed here](link)
+[A live version of the page can be viewed here](https://flisanp.github.io/ms1-ceramic-studio/)
 
 ![mockup image](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/screenshots/mockup.png)
 
@@ -100,7 +100,7 @@ I wanted the ceramist to somehow be able to sell her work through the website bu
 #### Testing User Stories 
 
 1. As a potential customer I want to visit her shop to find out what products I can buy. ![user story 1](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/shop.png)
-    - On the landing page is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
+    - On the landing page is a call to action button that says "SHOP NOW" which leads you to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
 2. As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products. ![user story 2](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/stockists.png)
     - On every page is a navbar on the top right with a link to the STOCKIST page which makes it easy to navigate to at all time. On the Stockist page you'll find a list with links to all the stores who keeps her products and where the stores are located.
 3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work. ![user story 3](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/socialmedia.png)
@@ -108,9 +108,9 @@ I wanted the ceramist to somehow be able to sell her work through the website bu
 4. As a curious new visitor to the website I would like to know more information about the ceramist and her work. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/about.png)
     - On every page is a navbar on the top right with a link to the ABOUT page which makes it easy to navigate to at all time. On the About page you can read a bit about her background, the thoughts behind the products the makes and that she does custom work on request. 
 5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 5](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/shop.png)
-   - On the landing page is a call to action button that says "SHOP NOW" which leads you immidiately to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is also a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
+   - On the landing page is a call to action button that says "SHOP NOW" which leads you to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is also a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
 6. As a retailer I would like to view her collection of products to see if it's something I would buy for my store. ![user story 6](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/gallery.png)
-    - On every page is a navbar on the top right with a link to the GALLERY page which makes it easy to navigate to at all time. The gallery presents images that showcases all the items available. 
+    - On every page is a navbar on the top right with a link to the GALLERY page which makes it easy to navigate to at all time. The gallery features images of her work. 
 7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries. ![user story 7](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/contact.png)
     - On every page is a navbar on the top right with a link to the CONTACT page which makes it easy to navigate to at all time. On the page is a contact form that is easy to fill in for a quick way to get in touch with the ceramist.
 
@@ -146,9 +146,11 @@ Image appears too small and does not move to underneath the text.
 
 #### HTML Testing
 https://validator.w3.org/
+No errors or warnings to show.
 
 #### CSS Testing 
 https://jigsaw.w3.org/css-validator/
+No errors or warnings to show.
 
 # Deployment
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
@@ -156,13 +158,14 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 2. Select the one that is called ms1-ceramic-studio from the list.
 3. Click on settings in the menu that is located to the top right.
 4. Scroll down to "GitHub Pages"
-5. Under "Source", choose None in the drop-down menu.
-6. Select Master Branch.
-7. Click Save and the website is now deployed.
-8. 
+5. Under "Source", Select Master Branch from the drop-down menu.
+6. Click Save and the website is now deployed.
 
 ### How To Run The Code Locally
-1. 
+1. Log inte Gitpod with your account.
+2. Navigate to the [repository](https://github.com/flisanp/ms1-ceramic-studio).
+3. Click the green GitPod button on the top right.
+4. A new workspace will be created.
 
 # Credits
 
