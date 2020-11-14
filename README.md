@@ -81,6 +81,7 @@ I wanted the ceramist to somehow be able to sell her work through the website bu
 - [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The developer has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality. 
 - [Tinypng](https://tinypng.com) - The developer used Tinypng for compressing images.
 - [Freeformatter](https://www.freeformatter.com/) - The developer used Freeformatter for beautifying HTML and CSS code.
+- [Fancybox](https://fancyapps.com/fancybox/3/) - This project uses Fancybox for gallery images.
 - [A11y](https://color.a11y.com) - The developer used A11y for checking the websites color contrast accessibility 
 - [Am I Responsive?](http://ami.responsivedesign.is/) - The developer used Am I Responsive? for creating the mockup image in the beginning of this README file.
 - [InDesign](https://www.adobe.com/se/products/indesign.html) The developer used InDesign for creating the logo image.
@@ -184,7 +185,7 @@ https://www.epocaceramic.com
 
 **Code**
 
-[Adding a lightbox](https://ashleydw.github.io/lightbox/) to image gallery
+[Code credit](https://github.com/TravelTimN/ci-milestone01-ucfd/blob/master/photos.html) for adding Fancybox to image gallery
 
 [Stack Overflow](https://stackoverflow.com/) was used for solving a issue to override btn color in Bootstrap: https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap
 
