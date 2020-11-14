@@ -170,7 +170,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 # Credits
 
 #### Content
-The content of the website is fictional but to seek information and inspiration about what other ceramist puts on their websites I have visited these talented ceramist and their sites:
+The content of the website is fictional but to seek information and inspiration about what other ceramist puts on their websites I have visited these ceramists and their sites:
 
 https://madokarindal.com
 
@@ -182,9 +182,13 @@ https://www.victoriamorrispottery.com
 
 https://www.epocaceramic.com
 
+**Code**
+
+[Adding a lightbox](https://ashleydw.github.io/lightbox/) to image gallery
+
 [Stack Overflow](https://stackoverflow.com/) was used for solving a issue to override btn color in Bootstrap: https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap
 
-[w3schools.com](https://www.w3schools.com) provided Device breakpoints in CSS: https://www.w3schools.com/css/css_rwd_mediaqueries.asp) 
+[w3schools.com](https://www.w3schools.com) provided device breakpoints in CSS: https://www.w3schools.com/css/css_rwd_mediaqueries.asp) 
 
 
 #### Media
