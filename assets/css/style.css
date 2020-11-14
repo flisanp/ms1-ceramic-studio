@@ -130,6 +130,7 @@ header {
 #photo img {
   width: 100%;
   padding: 2px;
+  margin-bottom: -15px;
 }
 
 /*------------ images ------------*/
