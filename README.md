@@ -10,6 +10,7 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 
 
 #### The Goals For This Website Is To:
+- Be user-friendly. 
 - Give a good and professional first impression to customers and retailers.
 - Sell products to customers or retailers.
 - Show customers where to buy the products.
@@ -32,12 +33,8 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
 
 
-#### Strategy 
-I wanted to make a user-friendly website for the ceramist where she easily can offer her products to potential customers and retailers. The main focus when you enter the site is therefore a call to action button that leads straight to her shop on [Etsy](https://www.etsy.com/). 
-
-#### Surface
+#### Design 
 I wanted the site to be easy navigated with a clean and minimalistic design. The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
-- **Images**
 The images used throughout the site is carefully choosen and is of great importence to showcase the ceramist work and to give a feeling about who she is. The photos of her work is all uniform in their apparence which gives a professional touch to the site. The photos of the ceramist herself on the about page and contact page has more of a personal character which gives the site a warm and welcoming feeling. The hero image on the landing page gives a calm first impression and also shows the skills of the ceramist. 
 All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
@@ -55,13 +52,12 @@ This solution was very satisfying and I think that the website gained a more cle
 
 # Features
 
-**Header** - A fixed header that exists on every page so it's easy accessible at all time. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.
+**Header** - A fixed header that exists on every page so it's easy accessible at all time. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.  
 
-**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. 
-
-The navbar has an hover effect so when the user hovers over the different pages the text changes color to a warm terracotta orange. The same color is used to show wich page the user is currently on.
+**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has an hover effect so when the user hovers over the different pages the text changes color. The same color is used to show wich page the user is currently on.
 
 **Home** - The home page features a hero image with the text "Jane Smith Ceramic Studio, Handcrafted Homeware" and a call to action button that guides the user to her shop. The image shows some of the ceramic items that she makes and this combined with the text immidiately gives the user clear information on what the website is about.
+ - I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people make orders. This didn't feel right with what I wanted to achieve though and after having discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy. This solution was very satisfying and I think that the website gained a more clear purpose.
 
 **Gallery** - The gallery page features a masonry gallery with images of all her work. 
 
@@ -74,7 +70,7 @@ The navbar has an hover effect so when the user hovers over the different pages 
 **Footer** - A fixed footer that exists on every page. Located in the center of the footer are four social media icons with links to the ceramist social media pages. The links have the same hover effects as the navbar and changes color when hovering over them.
 
 #### Features Left To Implement
-- A webshop directly on her page so that customers easily can buy her work without beeing redirected to Etsy.com.
+- A webshop so that customers easily can buy her work without beeing redirected to Etsy.com.
 
 - The forms functionality.
 
@@ -91,13 +87,14 @@ The navbar has an hover effect so when the user hovers over the different pages 
 - [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The project has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality. 
 - [Tinypng](https://tinypng.com) - Used for compressing images.
 - [Freeformatter](https://www.freeformatter.com/) - Used for beautifying HTML and CSS code.
+- [A11y](https://color.a11y.com) - Used for checking the websites color contrast accessibility 
 - [Am I Responsive?](http://ami.responsivedesign.is/) - Used for creating the mockup image in the beginning of this README file.
 - [InDesign](https://www.adobe.com/se/products/indesign.html) Used this program for creating the logo image.
 
 # Testing
 
 #### I Manually Tested The Following Features
-- Logo image in header navigates back to Home page on every site. This was clear to everyone who tested the site.
+- Logo image in header navigates back to Home page on every site. 
 - Links in navbar takes you to the correct pages.
 - Hover effect on links in navbar.
 - Action effect on actual site your visiting.
@@ -190,7 +187,7 @@ https://www.epocaceramic.com
 
 [Stack Overflow](https://stackoverflow.com/) was used for solving a issue to override btn color in Bootstrap: https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap
 
-Device breakpoints in CSS was taken from: [w3schools.com](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) 
+[w3schools.com](https://www.w3schools.com) provided Device breakpoints in CSS: https://www.w3schools.com/css/css_rwd_mediaqueries.asp) 
 
 
 #### Media
@@ -200,6 +197,7 @@ Device breakpoints in CSS was taken from: [w3schools.com](https://www.w3schools.
 - Photo on Stockist page by [Tom Crew on Unsplash](https://unsplash.com/@tomcrewceramics)
 - Photo on Contact page by [Gustavo Fring on Pexels](https://www.pexels.com/sv-se/foto/ljus-kvinna-konst-kreativ-4241339/)
 - Photo on About page by [Gustavo Fring on Pexels](https://www.pexels.com/sv-se/@gustavo-fring)
+- Text written with inspiration from [Victoria Morris](https://www.victoriamorrispottery.com) and [Madoka Rindals](https://madokarindal.com)
 - Logo in Header made by me
 
 #### Acknowledgements
