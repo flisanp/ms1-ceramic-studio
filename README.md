@@ -34,7 +34,7 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 
 #### Design 
 I wanted the site to be easy navigated with a clean and minimalistic design. The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
-The images used throughout the site is carefully choosen and is of great importence to showcase the ceramist work and to give a feeling about who she is. The photos of her work is unified in their visual apparence to give a professional touch to the site. The photos of the ceramist on the about page and contact page is ment to be more personalized. The hero image on the landing page gives a calm first impression and also shows the skills of the ceramist. 
+The images used throughout the site is carefully choosen and is of great importence to showcase the ceramist work and to give a feeling about who she is. The photos of her work is unified in their visual apparence to give a professional touch to the site and the photos of the ceramist is ment to be more personalized. The purpose of the hero image on the landing page is to give a calm first impression and also show the skills of the ceramist. 
 All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 #### Wireframes
@@ -51,7 +51,7 @@ All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://ww
 **Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has an hover effect so when the user hovers over the different pages the text changes color. The same color is used to show which page the user is currently on.
 
 **Home** - The home page features a hero image with the text "Jane Smith Ceramic Studio, Handcrafted Homeware" and a call to action button that guides the user to her shop. The image shows some of the ceramic items that she makes and this, in combination with the text, provides the user information on what the website is about.
-I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people place orders through the contact form. This didn't feel right with what I wanted to achieve though and after having discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy. I think this solution made the website gain clearer purpose.
+I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people place orders through the contact form. This didn't feel right with what I wanted to achieve and after having discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy. I think this solution made the website gain clearer purpose.
 
 **Gallery** - The gallery page features a masonry gallery with images of all her work. When you click the images they opens in a fancybox.
 
@@ -81,7 +81,7 @@ I wanted the ceramist to somehow be able to sell her work through the website bu
 - [DevTools](https://developers.google.com/web/tools/chrome-devtools) - The developer has used DevTools to test responsiveness and diagnose problems. The tool **Lighthouse** has been used to improve the website's quality. 
 - [Tinypng](https://tinypng.com) - The developer used Tinypng for compressing images.
 - [Freeformatter](https://www.freeformatter.com/) - The developer used Freeformatter for beautifying HTML and CSS code.
-- [Fancybox](https://fancyapps.com/fancybox/3/) - This project uses Fancybox for gallery images.
+- [Fancybox](https://fancyapps.com/fancybox/3/) - This project uses Fancybox for image gallery.
 - [A11y](https://color.a11y.com) - The developer used A11y for checking the websites color contrast accessibility 
 - [Am I Responsive?](http://ami.responsivedesign.is/) - The developer used Am I Responsive? for creating the mockup image in the beginning of this README file.
 - [InDesign](https://www.adobe.com/se/products/indesign.html) The developer used InDesign for creating the logo image.
@@ -111,7 +111,7 @@ I wanted the ceramist to somehow be able to sell her work through the website bu
 5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 5](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/shop.png)
    - On the landing page is a call to action button that says "SHOP NOW" which leads you to her shop on Etsy. The button is in a terracotta color to clearly stand out from the background. On every page is also a navbar on the top right with a link to the SHOP for easy navigation at all time.
 6. As a retailer I would like to view her collection of products to see if it's something I would buy for my store. ![user story 6](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/gallery.png)
-    - On every page is a navbar on the top right with a link to the GALLERY page for easy navigation at all time. The gallery features images of her work that opens in a fancybox on click. 
+    - On every page is a navbar on the top right with a link to the GALLERY page for easy navigation at all time. The gallery features images of her work that opens in a fancybox when clicked. 
 7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries. ![user story 7](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/contact.png)
     - On every page is a navbar on the top right with a link to the CONTACT page for easy navigation at all time. On the page is a contact form for a quick way to get in touch with the ceramist.
 
