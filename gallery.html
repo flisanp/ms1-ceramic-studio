@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="shortcut icon" type="image/png" href="assets/images/jane-smith.png">
+    <!-- FANCYBOX : recommended by mentor for photo gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css">
     <title>Jane Smith Ceramic Studio</title>
 </head>
 <body>
@@ -48,74 +50,102 @@
          </div>
       </nav>
    </header>
-<!--code credits for adding a lightbox: https://ashleydw.github.io/lightbox/-->
+
 <!-- image gallery -->
 <div id="photo">
-   <a href="assets/images/ceramic-bowls.jpg" data-toggle="lightbox">             
-   <img src="assets/images/ceramic-bowls.jpg" alt="ceramic bowls"></a>   
-   <a href="assets/images/ceramic-bowls2.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/ceramic-bowls2.jpg" alt="ceramic bowls"></a>
-   <a href="assets/images/ceramic-bowls7.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/ceramic-bowls7.jpg" alt="ceramic bowls"></a>
-   <a href="assets/images/ceramic-bowls3.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/ceramic-bowls3.jpg" alt="ceramic bowls"></a>
-   <a href="assets/images/ceramic-bowls4.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/ceramic-bowls4.jpg" alt="ceramic bowls"></a>
-   <a href="assets/images/ceramic-bowls5.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/ceramic-bowls5.jpg" alt="ceramic bowls"></a>
-   <a href="assets/images/ceramic-bowls6.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/ceramic-bowls6.jpg" alt="ceramic bowls"></a>
-   <a href="assets/images/ceramic-bowls7.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/ceramic-bowls7.jpg" alt="ceramic bowls"></a>
-   <a href="assets/images/ceramic-bowls9.jpg" data-toggle="lightbox">  
-   <img src="assets/images/ceramic-bowls9.jpg" alt="ceramic bowl"></a>
-   
-   <a href="assets/images/vases2.jpg" data-toggle="lightbox">  
-   <img src="assets/images/vases2.jpg" alt="ceramic vases"></a>
-   <a href="assets/images/vases3.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/vases3.jpg" alt="ceramic vases"></a>
-   <a href="assets/images/vases4.jpg" data-toggle="lightbox">  
-   <img src="assets/images/vases4.jpg" alt="ceramic vases"></a>
-   <a href="assets/images/vases5.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/vases5.jpg" alt="ceramic vase"></a>
-   <a href="assets/images/vases6.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/vases6.jpg" alt="ceramic vases"></a>
-   <a href="assets/images/vases7.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/vases7.jpg" alt="ceramic vases"></a>
-   <a href="assets/images/vases8.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/vases8.jpg" alt="ceramic vases"></a>
-   <a href="assets/images/vases9.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/vases9.jpg" alt="ceramic vases"></a>
-
-   <a href="assets/images/cups2.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/cups2.jpg" alt="ceramic cups"></a>
-   <a href="assets/images/cups3.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/cups3.jpg" alt="ceramic cups"></a>
-   <a href="assets/images/cups4.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/cups4.jpg" alt="ceramic cups"></a>
-   <a href="assets/images/cups5.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/cups5.jpg" alt="ceramic cups"></a>
-   <a href="assets/images/cups6.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/cups6.jpg" alt="ceramic cups"></a>
-   <a href="assets/images/cups7.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/cups7.jpg" alt="ceramic cups"></a>
-   
-   <a href="assets/images/kitchen1.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen1.jpg" alt="ceramic kitchenware"></a>
-   <a href="assets/images/kitchen2.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen2.jpg" alt="ceramic kitchenware"></a>
-   <a href="assets/images/kitchen3.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen3.jpg" alt="ceramic kitchenware"></a>
-   <a href="assets/images/kitchen4.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen4.jpg" alt="ceramic kitchenware"></a>
-   <a href="assets/images/kitchen5.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen5.jpg" alt="ceramic kitchenware"></a>
-   <a href="assets/images/kitchen6.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen6.jpg" alt="ceramic kitchenware"></a>
-   <a href="assets/images/kitchen7.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen7.jpg" alt="ceramic kitchenware"></a>
-   <a href="assets/images/kitchen8.jpg" data-toggle="lightbox"> 
-   <img src="assets/images/kitchen8.jpg" alt="ceramic kitchenware"></a>
+    <figure>
+        <a href="assets/images/ceramic-bowls.jpg" data-fancybox="gallery">             
+            <img src="assets/images/ceramic-bowls.jpg" alt="ceramic bowls"></a></figure>   
+    <figure>
+        <a href="assets/images/ceramic-bowls2.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/ceramic-bowls2.jpg" alt="ceramic bowls"></a></figure> 
+    <figure>
+        <a href="assets/images/ceramic-bowls7.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/ceramic-bowls7.jpg" alt="ceramic bowls"></a></figure> 
+    <figure>
+        <a href="assets/images/ceramic-bowls3.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/ceramic-bowls3.jpg" alt="ceramic bowls"></a></figure> 
+    <figure>
+        <a href="assets/images/ceramic-bowls4.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/ceramic-bowls4.jpg" alt="ceramic bowls"></a></figure> 
+    <figure>   
+        <a href="assets/images/ceramic-bowls5.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/ceramic-bowls5.jpg" alt="ceramic bowls"></a></figure> 
+    <figure>
+        <a href="assets/images/ceramic-bowls6.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/ceramic-bowls6.jpg" alt="ceramic bowls"></a></figure> 
+    <figure>
+        <a href="assets/images/ceramic-bowls7.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/ceramic-bowls7.jpg" alt="ceramic bowls"></a></figure> 
+   <figure>
+        <a href="assets/images/ceramic-bowls9.jpg" data-fancybox="gallery">  
+            <img src="assets/images/ceramic-bowls9.jpg" alt="ceramic bowl"></a></figure> 
+   <figure>
+        <a href="assets/images/vases2.jpg" data-fancybox="gallery">  
+            <img src="assets/images/vases2.jpg" alt="ceramic vases"></a></figure> 
+   <figure>
+        <a href="assets/images/vases3.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/vases3.jpg" alt="ceramic vases"></a></figure> 
+   <figure>
+        <a href="assets/images/vases4.jpg" data-fancybox="gallery">  
+            <img src="assets/images/vases4.jpg" alt="ceramic vases"></a></figure> 
+    <figure>  
+        <a href="assets/images/vases5.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/vases5.jpg" alt="ceramic vase"></a></figure> 
+    <figure>
+        <a href="assets/images/vases6.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/vases6.jpg" alt="ceramic vases"></a></figure> 
+    <figure>
+        <a href="assets/images/vases7.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/vases7.jpg" alt="ceramic vases"></a></figure> 
+    <figure>
+        <a href="assets/images/vases8.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/vases8.jpg" alt="ceramic vases"></a></figure> 
+    <figure>
+        <a href="assets/images/vases9.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/vases9.jpg" alt="ceramic vases"></a></figure> 
+    <figure>
+        <a href="assets/images/cups2.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/cups2.jpg" alt="ceramic cups"></a></figure> 
+    <figure>
+        <a href="assets/images/cups3.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/cups3.jpg" alt="ceramic cups"></a></figure> 
+    <figure>
+        <a href="assets/images/cups4.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/cups4.jpg" alt="ceramic cups"></a></figure> 
+    <figure>
+        <a href="assets/images/cups5.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/cups5.jpg" alt="ceramic cups"></a></figure> 
+    <figure>
+        <a href="assets/images/cups6.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/cups6.jpg" alt="ceramic cups"></a></figure> 
+    <figure>
+        <a href="assets/images/cups7.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/cups7.jpg" alt="ceramic cups"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen1.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/kitchen1.jpg" alt="ceramic kitchenware"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen2.jpg" ddata-fancybox="gallery"> 
+            <img src="assets/images/kitchen2.jpg" alt="ceramic kitchenware"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen3.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/kitchen3.jpg" alt="ceramic kitchenware"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen4.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/kitchen4.jpg" alt="ceramic kitchenware"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen5.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/kitchen5.jpg" alt="ceramic kitchenware"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen6.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/kitchen6.jpg" alt="ceramic kitchenware"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen7.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/kitchen7.jpg" alt="ceramic kitchenware"></a></figure> 
+    <figure>
+        <a href="assets/images/kitchen8.jpg" data-fancybox="gallery"> 
+            <img src="assets/images/kitchen8.jpg" alt="ceramic kitchenware"></a></figure> 
 </div>
  <!-- footer -->
    <footer class="footer fixed-bottom text-center">
@@ -157,13 +187,9 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
    crossorigin="anonymous"></script>
-<!--code credits for adding a lightbox: https://ashleydw.github.io/lightbox/-->
-$(document).on("click", '[data-toggle="lightbox"]', function (event) {
-	event.preventDefault();
-	$(this).ekkoLightbox({
-		alwaysShowClose: true
-	});
-});
+    <!-- FANCYBOX : recommended by mentor for photo gallery -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
 
 </body>
 </html>
