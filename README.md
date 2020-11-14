@@ -18,7 +18,7 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 - Show customers where to buy the products.
 - Show a wide range of items to a customer who's looking for a unique piece for their home.
 - Show a wide range of items to a retailer who wants to find good handcrafted products for their store.
-- Let users now that the ceramist is open to collaborations.
+- Let users know that the ceramist is open to collaborations.
 - Make it easy for users to contact the ceramist.
 
 #### User Stories
@@ -26,7 +26,7 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 1. As a potential customer I want to visit her shop to find out what products I can buy.
 2. As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products.
 3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work.
-4. As a curious new visitor to the website I would like to know more information about the ceramist and her work.
+4. As a curious new visitor to the website I would like to know more about the ceramist and her work.
 5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post.
 6. As a retailer I would like to view her collection of products to see if it's something I would buy for my store.
 7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries.
@@ -34,7 +34,7 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 
 #### Design 
 I wanted the site to be easy navigated with a clean and minimalistic design. The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
-The images used throughout the site is carefully choosen and is of great importence to showcase the ceramist work and to give a feeling about who she is. The photos of her work is all uniform in their apparence which gives a professional touch to the site. The photos of the ceramist herself on the about page and contact page has more of a personal character which gives the site a warm and welcoming feeling. The hero image on the landing page gives a calm first impression and also shows the skills of the ceramist. 
+The images used throughout the site is carefully choosen and is of great importence to showcase the ceramist work and to give a feeling about who she is. The photos of her work is unified in their visual apparence to give a professional touch to the site. The photos of the ceramist on the about page and contact page is ment to be more personalized. The hero image on the landing page gives a calm first impression and also shows the skills of the ceramist. 
 All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 #### Wireframes
@@ -46,20 +46,20 @@ All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://ww
 
 # Features
 
-**Header** - A fixed header that exists on every page so it's easy accessible at all time. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right so that the user easy can navigate through the different pages.  
+**Header** - A fixed header that exists on every page to make it easy accessible at all time. The logo is located to the left and by clicking it the user returns to the home page. The navigation menu is located to the right for the user to easy navigate through the different pages.  
 
-**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has an hover effect so when the user hovers over the different pages the text changes color. The same color is used to show wich page the user is currently on.
+**Navbar** - Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has an hover effect so when the user hovers over the different pages the text changes color. The same color is used to show which page the user is currently on.
 
-**Home** - The home page features a hero image with the text "Jane Smith Ceramic Studio, Handcrafted Homeware" and a call to action button that guides the user to her shop. The image shows some of the ceramic items that she makes and this combined with the text immidiately gives the user clear information on what the website is about.
-I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people make orders. This didn't feel right with what I wanted to achieve though and after having discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy. I think this solution gained a more clear purpose for the website.
+**Home** - The home page features a hero image with the text "Jane Smith Ceramic Studio, Handcrafted Homeware" and a call to action button that guides the user to her shop. The image shows some of the ceramic items that she makes and this, in combination with the text, provides the user information on what the website is about.
+I wanted the ceramist to somehow be able to sell her work through the website but since we haven't learned the technologies to implement that yet I decided that I'll show her work in an image gallery and let people place orders through the contact form. This didn't feel right with what I wanted to achieve though and after having discussed the issue with my mentor we talked about adding a link to an online materketplace outside the page, like Etsy. I think this solution made the website gain clearer purpose.
 
-**Gallery** - The gallery page features a masonry gallery with images of all her work. When you click the images they opens in a lightbox.
+**Gallery** - The gallery page features a masonry gallery with images of all her work. When you click the images they opens in a fancybox.
 
 **About** - The about page features a photo of the ceramist to present the person who’s making the items. The page also provides a short text that gives some information about who she is and her thoughts about her work. You can also read that she’s available for collaborations.
 
 **Stockists** - The stockist page features an unordered list with links to all her stockists so that users easily can access their websites and get information on where to purchase her items.
 
-**Contact** - The contact page features a form where the user can fill in their name, email address and a message. The page also features another photo of the ceramist to make it personal.
+**Contact** - The contact page features a form where the user can enter their name, email address and a message. The page also features another photo of the ceramist.
 
 **Footer** - A fixed footer that exists on every page. Located in the center of the footer are four social media icons with links to the ceramist social media pages. The links have the same hover effects as the navbar and changes color when hovering over them.
 
@@ -101,19 +101,19 @@ I wanted the ceramist to somehow be able to sell her work through the website bu
 #### Testing User Stories 
 
 1. As a potential customer I want to visit her shop to find out what products I can buy. ![user story 1](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/shop.png)
-    - On the landing page is a call to action button that says "SHOP NOW" which leads you to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
+    - On the landing page is a call to action button that says "SHOP NOW" which leads you to her shop on Etsy. The button is in a terracotta color to clearly stand out from the background. On every page is a navbar on the top right with a link to the SHOP for easy navigation at all time.
 2. As a fan of the ceramist I would like to find where the nearest stockists are located so that I can purchase her products. ![user story 2](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/stockists.png)
-    - On every page is a navbar on the top right with a link to the STOCKIST page which makes it easy to navigate to at all time. On the Stockist page you'll find a list with links to all the stores who keeps her products and where the stores are located.
+    - On every page is a navbar on the top right with a link to the STOCKIST page for easy navigation at all time. On the Stockist page you'll find a list with links to all the stores who keeps her products and where the stores are located.
 3. As a fan of the ceramist I would like to find her social media sites so that I can keep updated about her work. ![user story 3](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/socialmedia.png)
     - In the footer on all pages are links to her four social media sites which makes them clearly visible at all time.
 4. As a curious new visitor to the website I would like to know more information about the ceramist and her work. ![user story 4](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/about.png)
-    - On every page is a navbar on the top right with a link to the ABOUT page which makes it easy to navigate to at all time. On the About page you can read a bit about her background, the thoughts behind the products the makes and that she does custom work on request. 
+    - On every page is a navbar on the top right with a link to the ABOUT page for easy navigation at all time. On the About page you can read a bit about her background, the thoughts behind the products the makes and that she does custom work on request. 
 5. As a follower on social media I need to find her shop so that I can buy the product I saw in her latest Instagram post. ![user story 5](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/shop.png)
-   - On the landing page is a call to action button that says "SHOP NOW" which leads you to her shop on Etsy. The button is in a terracotta color so it clearly stands out from the background. On every page is also a navbar on the top right with a link to the SHOP which makes it easy to navigate to at all time.
+   - On the landing page is a call to action button that says "SHOP NOW" which leads you to her shop on Etsy. The button is in a terracotta color to clearly stand out from the background. On every page is also a navbar on the top right with a link to the SHOP for easy navigation at all time.
 6. As a retailer I would like to view her collection of products to see if it's something I would buy for my store. ![user story 6](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/gallery.png)
-    - On every page is a navbar on the top right with a link to the GALLERY page which makes it easy to navigate to at all time. The gallery features images of her work. 
+    - On every page is a navbar on the top right with a link to the GALLERY page for easy navigation at all time. The gallery features images of her work that opens in a fancybox on click. 
 7. As a retailer I want to find the contact information so that I can get in touch with her for business inquiries. ![user story 7](https://github.com/flisanp/ms1-ceramic-studio/blob/master/readme%20assets/screenshots/contact.png)
-    - On every page is a navbar on the top right with a link to the CONTACT page which makes it easy to navigate to at all time. On the page is a contact form that is easy to fill in for a quick way to get in touch with the ceramist.
+    - On every page is a navbar on the top right with a link to the CONTACT page for easy navigation at all time. On the page is a contact form for a quick way to get in touch with the ceramist.
 
 #### During Development I Fixed The Following Bugs
 
@@ -171,7 +171,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 # Credits
 
 #### Content
-The content of the website is fictional but to seek information and inspiration about what other ceramist puts on their websites I have visited these ceramists and their sites:
+The content of the website is fictional but to seek information and inspiration from other ceramists I have visitied these sites:
 
 https://madokarindal.com
 
