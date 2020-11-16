@@ -34,15 +34,15 @@ This website is made for Jane Smith, a fictional ceramist based in Austin, TX wh
 
 #### Design 
 I wanted the site to be easy navigated with a clean and minimalistic design. The colors I’ve used for the project is a light grey, #777777, and a warm terracotta, #E2725B. I chose these colors because they are easy to read on screen and also the two most common colors on clay that’s used for pottery which gives the site an earthy tone and a thought through theme.  
-The images used throughout the site is carefully choosen and is of great importence to showcase the ceramist work and to give a feeling about who she is. The photos of her work is unified in their visual appearence to give a professional touch to the site and the photos of the ceramist is ment to be more personalized. The purpose of the hero image on the landing page is to give a calm first impression and also show the skills of the ceramist. 
+The images used throughout the site is carefully choosen and is of great importance to showcase the ceramist work and to give a feeling about who she is. The photos of her work is unified in their visual appearence to give a professional touch to the site and the photos of the ceramist is ment to be more personalized. The purpose of the hero image on the landing page is to give a calm first impression and also show the skills of the ceramist. 
 All images sourced via [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 #### Wireframes
-- [Home](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/home.png) 
-- [Gallery](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/gallery.png) 
-- [About](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/about.png) 
-- [Stockists](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/stockists.png) 
-- [Contact](https://github.com/flisanp/ms1-ceramic-studio/blob/b5fbdf773ad5d891b44a79b12f32a1f630514b58/readme%20assets/wireframes/contact.png) 
+- [Home](https://github.com/flisanp/ms1-ceramic-studio/blob/1c78496558ba3f71e3a4b053decec4315fc89053/readme%20assets/wireframes/home.png) 
+- [Gallery](https://github.com/flisanp/ms1-ceramic-studio/blob/1c78496558ba3f71e3a4b053decec4315fc89053/readme%20assets/wireframes/gallery.png) 
+- [About](https://github.com/flisanp/ms1-ceramic-studio/blob/1c78496558ba3f71e3a4b053decec4315fc89053/readme%20assets/wireframes/about.png) 
+- [Stockists](https://github.com/flisanp/ms1-ceramic-studio/blob/1c78496558ba3f71e3a4b053decec4315fc89053/readme%20assets/wireframes/stockists.png) 
+- [Contact](https://github.com/flisanp/ms1-ceramic-studio/blob/1c78496558ba3f71e3a4b053decec4315fc89053/readme%20assets/wireframes/contact.png) 
 
 # Features
 
